@@ -1,7 +1,7 @@
-[1753400671.916][INFO]: Starting ChromeDriver 138.0.7204.168 (3e8d82e86e9f508e88ed406c2a24657a6c691d30-refs/branch-heads/7204@{#2081}) on port 51651
-[1753400671.916][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1753400671.925][INFO]: ChromeDriver was started successfully on port 51651
-[1753400672.456][INFO]: [39ed752b808998b86f9754ff810d3a04] COMMAND InitSession {
+[1753468026.625][INFO]: Starting ChromeDriver 138.0.7204.168 (3e8d82e86e9f508e88ed406c2a24657a6c691d30-refs/branch-heads/7204@{#2081}) on port 55201
+[1753468026.625][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1753468026.630][INFO]: ChromeDriver was started successfully on port 55201
+[1753468027.120][INFO]: [d2beb964b3a21ab865323736dc48240e] COMMAND InitSession {
    "capabilities": {
       "alwaysMatch": {
          "browserName": "chrome",
@@ -17,17 +17,17 @@
       } ]
    }
 }
-[1753400672.456][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1753400672.456][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
-[1753400672.457][INFO]: Browser search. Trying... C:\Users\usuario\Desktop\massivo\backend\chrome.exe
-[1753400672.457][INFO]: Browser search. Trying... C:\Users\usuario\Desktop\massivo\backend\chrome.exe
-[1753400672.457][INFO]: Browser search. Trying... C:\Users\usuario\Desktop\massivo\backend\chromium.exe
-[1753400672.459][INFO]: Browser search. Trying... C:\Users\usuario\AppData\Local\Google\Chrome\Application\chrome.exe
-[1753400672.459][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
-[1753400672.459][INFO]: Browser search. Found at  C:\Program Files\Google\Chrome\Application\chrome.exe
-[1753400672.471][INFO]: Populating Preferences file: {
+[1753468027.120][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1753468027.120][WARNING]: Deprecated chrome option is ignored: useAutomationExtension
+[1753468027.120][INFO]: Browser search. Trying... C:\Users\usuario\Desktop\massivo\backend\chrome.exe
+[1753468027.120][INFO]: Browser search. Trying... C:\Users\usuario\Desktop\massivo\backend\chrome.exe
+[1753468027.120][INFO]: Browser search. Trying... C:\Users\usuario\Desktop\massivo\backend\chromium.exe
+[1753468027.122][INFO]: Browser search. Trying... C:\Users\usuario\AppData\Local\Google\Chrome\Application\chrome.exe
+[1753468027.122][INFO]: Browser search. Trying... C:\Program Files\Google\Chrome\Application\chrome.exe
+[1753468027.122][INFO]: Browser search. Found at  C:\Program Files\Google\Chrome\Application\chrome.exe
+[1753468027.139][INFO]: Populating Preferences file: {
    "NewTabPage": {
-      "PrevNavigationTime": "13397873986944558"
+      "PrevNavigationTime": "13397938802119307"
    },
    "accessibility": {
       "captions": {
@@ -51,15 +51,20 @@
    "browser": {
       "check_default_browser": false,
       "window_placement": {
-         "bottom": 979,
-         "left": 298,
+         "bottom": 875,
+         "left": 407,
          "maximized": false,
-         "right": 1678,
-         "top": 199,
+         "right": 1787,
+         "top": 95,
          "work_area_bottom": 1032,
          "work_area_left": 0,
          "work_area_right": 1920,
          "work_area_top": 0
+      }
+   },
+   "cached_fonts": {
+      "search_results_page": {
+         "fonts": [ "Arial" ]
       }
    },
    "commerce_daily_metrics_last_update_time": "13397865562457521",
@@ -69,15 +74,19 @@
       "guid": ""
    },
    "devtools": {
-      "last_open_timestamp": "13397869935878",
+      "last_open_timestamp": "13397937968533",
       "preferences": {
          "closeable-tabs": "{\"security\":true,\"freestyler\":true,\"chrome-recorder\":true}",
          "currentDockState": "\"right\"",
+         "elements-panel-split-view-state": "{\"vertical\":{\"size\":184}}",
          "elements.styles.sidebar.width": "{\"vertical\":{\"size\":0,\"showMode\":\"OnlyMain\"}}",
-         "inspector-view.split-view-state": "{\"vertical\":{\"size\":1184}}",
+         "emulation.device-mode-value": "{\"device\":\"\",\"orientation\":\"\",\"mode\":\"\"}",
+         "emulation.show-device-mode": "false",
+         "inspector-view.split-view-state": "{\"vertical\":{\"size\":852}}",
          "inspector.drawer-split-view-state": "{\"horizontal\":{\"size\":0,\"showMode\":\"OnlyMain\"}}",
          "inspectorVersion": "38",
          "releaseNoteVersionSeen": "79",
+         "standard-emulated-device-list": "[{\"title\":\"iPhone SE\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":375,\"height\":667},\"horizontal\":{\"width\":667,\"height\":375}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"iPhone XR\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":414,\"height\":896},\"horizontal\":{\"width\":896,\"height\":414}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"iPhone 12 Pro\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":390,\"height\":844},\"horizontal\":{\"width\":844,\"height\":390}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"iPhone 14 Pro Max\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":430,\"height\":932},\"horizontal\":{\"width\":932,\"height\":430}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"Pixel 3 XL\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 11; Pixel 3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2.75,\"vertical\":{\"width\":393,\"height\":786},\"horizontal\":{\"width\":786,\"height\":393}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"11\",\"architecture\":\"\",\"model\":\"Pixel 3\",\"mobile\":true}},{\"title\":\"Pixel 7\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2.625,\"vertical\":{\"width\":412,\"height\":915},\"horizontal\":{\"width\":915,\"height\":412}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"13\",\"architecture\":\"\",\"model\":\"Pixel 5\",\"mobile\":true}},{\"title\":\"Samsung Galaxy S8+\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":4,\"vertical\":{\"width\":360,\"height\":740},\"horizontal\":{\"width\":740,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"8.0.0\",\"architecture\":\"\",\"model\":\"SM-G955U\",\"mobile\":true}},{\"title\":\"Samsung Galaxy S20 Ultra\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 13; SM-G981B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3.5,\"vertical\":{\"width\":412,\"height\":915},\"horizontal\":{\"width\":915,\"height\":412}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"13\",\"architecture\":\"\",\"model\":\"SM-G981B\",\"mobile\":true}},{\"title\":\"iPad Mini\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (iPad; CPU OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":768,\"height\":1024},\"horizontal\":{\"width\":1024,\"height\":768}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"iPad Air\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15\",\"capabilities\":[\"touch\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":820,\"height\":1180},\"horizontal\":{\"width\":1180,\"height\":820}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"iPad Pro\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.0 Safari/605.1.15\",\"capabilities\":[\"touch\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":1024,\"height\":1366},\"horizontal\":{\"width\":1366,\"height\":1024}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"Surface Pro 7\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":912,\"height\":1368},\"horizontal\":{\"width\":1368,\"height\":912}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"Surface Duo\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 11.0; Surface Duo) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2.5,\"vertical\":{\"width\":540,\"height\":720},\"horizontal\":{\"width\":720,\"height\":540},\"vertical-spanned\":{\"width\":1114,\"height\":720,\"hinge\":{\"width\":34,\"height\":720,\"x\":540,\"y\":0,\"contentColor\":{\"r\":38,\"g\":38,\"b\":38,\"a\":1}}},\"horizontal-spanned\":{\"width\":720,\"height\":1114,\"hinge\":{\"width\":720,\"height\":34,\"x\":0,\"y\":540,\"contentColor\":{\"r\":38,\"g\":38,\"b\":38,\"a\":1}}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"spanned\",\"orientation\":\"vertical-spanned\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"spanned\",\"orientation\":\"horizontal-spanned\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":true,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"11.0\",\"architecture\":\"\",\"model\":\"Surface Duo\",\"mobile\":true}},{\"title\":\"Galaxy Z Fold 5\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2.625,\"vertical\":{\"width\":344,\"height\":882},\"horizontal\":{\"width\":882,\"height\":344},\"vertical-spanned\":{\"width\":690,\"height\":829,\"hinge\":{\"width\":0,\"height\":829,\"x\":345,\"y\":0,\"contentColor\":{\"r\":38,\"g\":38,\"b\":38,\"a\":0.2},\"outlineColor\":{\"r\":38,\"g\":38,\"b\":38,\"a\":0.7}}},\"horizontal-spanned\":{\"width\":829,\"height\":690,\"hinge\":{\"width\":829,\"height\":0,\"x\":0,\"y\":345,\"contentColor\":{\"r\":38,\"g\":38,\"b\":38,\"a\":0.2},\"outlineColor\":{\"r\":38,\"g\":38,\"b\":38,\"a\":0.7}}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"spanned\",\"orientation\":\"vertical-spanned\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"spanned\",\"orientation\":\"horizontal-spanned\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"foldable-screen\":true,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"10.0\",\"architecture\":\"\",\"model\":\"SM-F946U\",\"mobile\":true}},{\"title\":\"Asus Zenbook Fold\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\",\"capabilities\":[\"touch\"],\"screen\":{\"device-pixel-ratio\":1.5,\"vertical\":{\"width\":853,\"height\":1280},\"horizontal\":{\"width\":1280,\"height\":853},\"vertical-spanned\":{\"width\":1706,\"height\":1280,\"hinge\":{\"width\":107,\"height\":1280,\"x\":800,\"y\":0,\"contentColor\":{\"r\":38,\"g\":38,\"b\":38,\"a\":0.2},\"outlineColor\":{\"r\":38,\"g\":38,\"b\":38,\"a\":0.7}}},\"horizontal-spanned\":{\"width\":1280,\"height\":1706,\"hinge\":{\"width\":1706,\"height\":107,\"x\":0,\"y\":800,\"contentColor\":{\"r\":38,\"g\":38,\"b\":38,\"a\":0.2},\"outlineColor\":{\"r\":38,\"g\":38,\"b\":38,\"a\":0.7}}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"spanned\",\"orientation\":\"vertical-spanned\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"spanned\",\"orientation\":\"horizontal-spanned\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"foldable-screen\":true,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Windows\",\"platformVersion\":\"11.0\",\"architecture\":\"\",\"model\":\"UX9702AA\",\"mobile\":false}},{\"title\":\"Samsung Galaxy A51/71\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 8.0.0; SM-G955U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2.625,\"vertical\":{\"width\":412,\"height\":914},\"horizontal\":{\"width\":914,\"height\":412}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"8.0.0\",\"architecture\":\"\",\"model\":\"SM-G955U\",\"mobile\":true}},{\"title\":\"Nest Hub Max\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 CrKey/1.54.250320\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":1280,\"height\":800},\"horizontal\":{\"width\":1280,\"height\":800,\"outline\":{\"insets\":{\"left\":92,\"top\":96,\"right\":91,\"bottom\":248},\"image\":\"@url(optimized/google-nest-hub-max-horizontal.avif)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"Nest Hub\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (Linux; Android) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 CrKey/1.54.248666\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":1024,\"height\":600},\"horizontal\":{\"width\":1024,\"height\":600,\"outline\":{\"insets\":{\"left\":82,\"top\":74,\"right\":83,\"bottom\":222},\"image\":\"@url(optimized/google-nest-hub-horizontal.avif)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":true,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"\",\"architecture\":\"\",\"model\":\"\",\"mobile\":false}},{\"title\":\"iPhone 4\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 7_1_2 like Mac OS X) AppleWebKit/537.51.2 (KHTML, like Gecko) Version/7.0 Mobile/11D257 Safari/9537.53\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":320,\"height\":480},\"horizontal\":{\"width\":480,\"height\":320}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"iPhone 5/SE\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_1 like Mac OS X) AppleWebKit/603.1.30 (KHTML, like Gecko) Version/10.0 Mobile/14E304 Safari/602.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":320,\"height\":568,\"outline\":{\"insets\":{\"left\":29,\"top\":105,\"right\":25,\"bottom\":111},\"image\":\"@url(optimized/iPhone5-portrait.avif)\"}},\"horizontal\":{\"width\":568,\"height\":320,\"outline\":{\"insets\":{\"left\":115,\"top\":25,\"right\":115,\"bottom\":28},\"image\":\"@url(optimized/iPhone5-landscape.avif)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"iPhone 6/7/8\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":375,\"height\":667,\"outline\":{\"insets\":{\"left\":28,\"top\":105,\"right\":28,\"bottom\":105},\"image\":\"@url(optimized/iPhone6-portrait.avif)\"}},\"horizontal\":{\"width\":667,\"height\":375,\"outline\":{\"insets\":{\"left\":106,\"top\":28,\"right\":106,\"bottom\":28},\"image\":\"@url(optimized/iPhone6-landscape.avif)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"iPhone 6/7/8 Plus\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":414,\"height\":736,\"outline\":{\"insets\":{\"left\":26,\"top\":107,\"right\":30,\"bottom\":111},\"image\":\"@url(optimized/iPhone6Plus-portrait.avif)\"}},\"horizontal\":{\"width\":736,\"height\":414,\"outline\":{\"insets\":{\"left\":109,\"top\":29,\"right\":109,\"bottom\":27},\"image\":\"@url(optimized/iPhone6Plus-landscape.avif)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"iPhone X\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":375,\"height\":812},\"horizontal\":{\"width\":812,\"height\":375}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"BlackBerry Z30\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (BB10; Touch) AppleWebKit/537.10+ (KHTML, like Gecko) Version/10.0.9.2372 Mobile Safari/537.10+\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"Nexus 4\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 4.4.2; Nexus 4 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":384,\"height\":640},\"horizontal\":{\"width\":640,\"height\":384}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"4.4.2\",\"architecture\":\"\",\"model\":\"Nexus 4\",\"mobile\":true}},{\"title\":\"Nexus 5\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":25,\"right\":0,\"bottom\":48},\"image\":\"@url(optimized/google-nexus-5-vertical-default-1x.avif) 1x, @url(optimized/google-nexus-5-vertical-default-2x.avif) 2x\"},{\"title\":\"navigation bar\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":80,\"right\":0,\"bottom\":48},\"image\":\"@url(optimized/google-nexus-5-vertical-navigation-1x.avif) 1x, @url(optimized/google-nexus-5-vertical-navigation-2x.avif) 2x\"},{\"title\":\"keyboard\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":80,\"right\":0,\"bottom\":312},\"image\":\"@url(optimized/google-nexus-5-vertical-keyboard-1x.avif) 1x, @url(optimized/google-nexus-5-vertical-keyboard-2x.avif) 2x\"},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":25,\"right\":42,\"bottom\":0},\"image\":\"@url(optimized/google-nexus-5-horizontal-default-1x.avif) 1x, @url(optimized/google-nexus-5-horizontal-default-2x.avif) 2x\"},{\"title\":\"navigation bar\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":80,\"right\":42,\"bottom\":0},\"image\":\"@url(optimized/google-nexus-5-horizontal-navigation-1x.avif) 1x, @url(optimized/google-nexus-5-horizontal-navigation-2x.avif) 2x\"},{\"title\":\"keyboard\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":80,\"right\":42,\"bottom\":202},\"image\":\"@url(optimized/google-nexus-5-horizontal-keyboard-1x.avif) 1x, @url(optimized/google-nexus-5-horizontal-keyboard-2x.avif) 2x\"}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"6.0\",\"architecture\":\"\",\"model\":\"Nexus 5\",\"mobile\":true}},{\"title\":\"Nexus 5X\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 8.0.0; Nexus 5X Build/OPR4.170623.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2.625,\"vertical\":{\"width\":412,\"height\":732,\"outline\":{\"insets\":{\"left\":18,\"top\":88,\"right\":22,\"bottom\":98},\"image\":\"@url(optimized/Nexus5X-portrait.avif)\"}},\"horizontal\":{\"width\":732,\"height\":412,\"outline\":{\"insets\":{\"left\":88,\"top\":21,\"right\":98,\"bottom\":19},\"image\":\"@url(optimized/Nexus5X-landscape.avif)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":24,\"right\":0,\"bottom\":48},\"image\":\"@url(optimized/google-nexus-5x-vertical-default-1x.avif) 1x, @url(optimized/google-nexus-5x-vertical-default-2x.avif) 2x\"},{\"title\":\"navigation bar\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":80,\"right\":0,\"bottom\":48},\"image\":\"@url(optimized/google-nexus-5x-vertical-navigation-1x.avif) 1x, @url(optimized/google-nexus-5x-vertical-navigation-2x.avif) 2x\"},{\"title\":\"keyboard\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":80,\"right\":0,\"bottom\":342},\"image\":\"@url(optimized/google-nexus-5x-vertical-keyboard-1x.avif) 1x, @url(optimized/google-nexus-5x-vertical-keyboard-2x.avif) 2x\"},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":24,\"right\":48,\"bottom\":0},\"image\":\"@url(optimized/google-nexus-5x-horizontal-default-1x.avif) 1x, @url(optimized/google-nexus-5x-horizontal-default-2x.avif) 2x\"},{\"title\":\"navigation bar\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":80,\"right\":48,\"bottom\":0},\"image\":\"@url(optimized/google-nexus-5x-horizontal-navigation-1x.avif) 1x, @url(optimized/google-nexus-5x-horizontal-navigation-2x.avif) 2x\"},{\"title\":\"keyboard\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":80,\"right\":48,\"bottom\":222},\"image\":\"@url(optimized/google-nexus-5x-horizontal-keyboard-1x.avif) 1x, @url(optimized/google-nexus-5x-horizontal-keyboard-2x.avif) 2x\"}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"8.0.0\",\"architecture\":\"\",\"model\":\"Nexus 5X\",\"mobile\":true}},{\"title\":\"Nexus 6\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 7.1.1; Nexus 6 Build/N6F26U) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3.5,\"vertical\":{\"width\":412,\"height\":732},\"horizontal\":{\"width\":732,\"height\":412}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"7.1.1\",\"architecture\":\"\",\"model\":\"Nexus 6\",\"mobile\":true}},{\"title\":\"Nexus 6P\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 8.0.0; Nexus 6P Build/OPP3.170518.006) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3.5,\"vertical\":{\"width\":412,\"height\":732,\"outline\":{\"insets\":{\"left\":16,\"top\":94,\"right\":16,\"bottom\":88},\"image\":\"@url(optimized/Nexus6P-portrait.avif)\"}},\"horizontal\":{\"width\":732,\"height\":412,\"outline\":{\"insets\":{\"left\":94,\"top\":17,\"right\":88,\"bottom\":17},\"image\":\"@url(optimized/Nexus6P-landscape.avif)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"8.0.0\",\"architecture\":\"\",\"model\":\"Nexus 6P\",\"mobile\":true}},{\"title\":\"Pixel 2\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2.625,\"vertical\":{\"width\":411,\"height\":731},\"horizontal\":{\"width\":731,\"height\":411}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"8.0\",\"architecture\":\"\",\"model\":\"Pixel 2\",\"mobile\":true}},{\"title\":\"Pixel 2 XL\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3.5,\"vertical\":{\"width\":411,\"height\":823},\"horizontal\":{\"width\":823,\"height\":411}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"8.0.0\",\"architecture\":\"\",\"model\":\"Pixel 2 XL\",\"mobile\":true}},{\"title\":\"Pixel 3\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 9; Pixel 3 Build/PQ1A.181105.017.A1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2.75,\"vertical\":{\"width\":393,\"height\":786},\"horizontal\":{\"width\":786,\"height\":393}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"9\",\"architecture\":\"\",\"model\":\"Pixel 3\",\"mobile\":true}},{\"title\":\"Pixel 4\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 10; Pixel 4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":353,\"height\":745},\"horizontal\":{\"width\":745,\"height\":353}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"10\",\"architecture\":\"\",\"model\":\"Pixel 4\",\"mobile\":true}},{\"title\":\"LG Optimus L70\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; U; Android 4.4.2; en-us; LGMS323 Build/KOT49I.MS32310c) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":1.25,\"vertical\":{\"width\":384,\"height\":640},\"horizontal\":{\"width\":640,\"height\":384}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"4.4.2\",\"architecture\":\"\",\"model\":\"LGMS323\",\"mobile\":true}},{\"title\":\"Nokia N9\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (MeeGo; NokiaN9) AppleWebKit/534.13 (KHTML, like Gecko) NokiaBrowser/8.5.0 Mobile Safari/534.13\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":1,\"vertical\":{\"width\":480,\"height\":854},\"horizontal\":{\"width\":854,\"height\":480}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"Nokia Lumia 520\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (compatible; MSIE 10.0; Windows Phone 8.0; Trident/6.0; IEMobile/10.0; ARM; Touch; NOKIA; Lumia 520)\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":1.5,\"vertical\":{\"width\":320,\"height\":533},\"horizontal\":{\"width\":533,\"height\":320}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"Microsoft Lumia 550\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 550) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36 Edge/14.14263\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":640,\"height\":360},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"4.2.1\",\"architecture\":\"\",\"model\":\"Lumia 550\",\"mobile\":true}},{\"title\":\"Microsoft Lumia 950\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Windows Phone 10.0; Android 4.2.1; Microsoft; Lumia 950) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36 Edge/14.14263\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":4,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"4.2.1\",\"architecture\":\"\",\"model\":\"Lumia 950\",\"mobile\":true}},{\"title\":\"Galaxy S III\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; U; Android 4.0; en-us; GT-I9300 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"4.0\",\"architecture\":\"\",\"model\":\"GT-I9300\",\"mobile\":true}},{\"title\":\"Galaxy S5\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"5.0\",\"architecture\":\"\",\"model\":\"SM-G900P\",\"mobile\":true}},{\"title\":\"Galaxy S8\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 7.0; SM-G950U Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":360,\"height\":740},\"horizontal\":{\"width\":740,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"7.0\",\"architecture\":\"\",\"model\":\"SM-G950U\",\"mobile\":true}},{\"title\":\"Galaxy S9+\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 8.0.0; SM-G965U Build/R16NW) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":4.5,\"vertical\":{\"width\":320,\"height\":658},\"horizontal\":{\"width\":658,\"height\":320}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"8.0.0\",\"architecture\":\"\",\"model\":\"SM-G965U\",\"mobile\":true}},{\"title\":\"Galaxy Tab S4\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 8.1.0; SM-T837A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2.25,\"vertical\":{\"width\":712,\"height\":1138},\"horizontal\":{\"width\":1138,\"height\":712}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"8.1.0\",\"architecture\":\"\",\"model\":\"SM-T837A\",\"mobile\":false}},{\"title\":\"JioPhone 2\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Mobile; LYF/F300B/LYF-F300B-001-01-15-130718-i;Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":1,\"vertical\":{\"width\":240,\"height\":320},\"horizontal\":{\"width\":320,\"height\":240}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"\",\"architecture\":\"\",\"model\":\"LYF/F300B/LYF-F300B-001-01-15-130718-i\",\"mobile\":true}},{\"title\":\"Kindle Fire HDX\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (Linux; U; en-us; KFAPWI Build/JDQ39) AppleWebKit/535.19 (KHTML, like Gecko) Silk/3.13 Safari/535.19 Silk-Accelerated=true\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":800,\"height\":1280},\"horizontal\":{\"width\":1280,\"height\":800}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"iPad\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":768,\"height\":1024,\"outline\":{\"insets\":{\"left\":52,\"top\":114,\"right\":55,\"bottom\":114},\"image\":\"@url(optimized/iPad-portrait.avif)\"}},\"horizontal\":{\"width\":1024,\"height\":768,\"outline\":{\"insets\":{\"left\":112,\"top\":56,\"right\":116,\"bottom\":52},\"image\":\"@url(optimized/iPad-landscape.avif)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"iPad Pro\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (iPad; CPU OS 11_0 like Mac OS X) AppleWebKit/604.1.34 (KHTML, like Gecko) Version/11.0 Mobile/15A5341f Safari/604.1\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":1024,\"height\":1366},\"horizontal\":{\"width\":1366,\"height\":1024}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"Blackberry PlayBook\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (PlayBook; U; RIM Tablet OS 2.1.0; en-US) AppleWebKit/536.2+ (KHTML like Gecko) Version/7.2.1.0 Safari/536.2+\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":1,\"vertical\":{\"width\":600,\"height\":1024},\"horizontal\":{\"width\":1024,\"height\":600}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\"},{\"title\":\"Nexus 10\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 10 Build/MOB31T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":800,\"height\":1280},\"horizontal\":{\"width\":1280,\"height\":800}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"6.0.1\",\"architecture\":\"\",\"model\":\"Nexus 10\",\"mobile\":false}},{\"title\":\"Nexus 7\",\"type\":\"tablet\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 6.0.1; Nexus 7 Build/MOB30X) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":600,\"height\":960},\"horizontal\":{\"width\":960,\"height\":600}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"6.0.1\",\"architecture\":\"\",\"model\":\"Nexus 7\",\"mobile\":false}},{\"title\":\"Galaxy Note 3\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; U; Android 4.3; en-us; SM-N900T Build/JSS15J) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"4.3\",\"architecture\":\"\",\"model\":\"SM-N900T\",\"mobile\":true}},{\"title\":\"Galaxy Note II\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; U; Android 4.1; en-us; GT-N7100 Build/JRO03C) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":2,\"vertical\":{\"width\":360,\"height\":640},\"horizontal\":{\"width\":640,\"height\":360}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"4.1\",\"architecture\":\"\",\"model\":\"GT-N7100\",\"mobile\":true}},{\"title\":\"Moto G4\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 6.0.1; Moto G (4)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3,\"vertical\":{\"width\":360,\"height\":640,\"outline\":{\"insets\":{\"left\":30,\"top\":91,\"right\":30,\"bottom\":74},\"image\":\"@url(optimized/MotoG4-portrait.avif)\"}},\"horizontal\":{\"width\":640,\"height\":360,\"outline\":{\"insets\":{\"left\":91,\"top\":30,\"right\":74,\"bottom\":30},\"image\":\"@url(optimized/MotoG4-landscape.avif)\"}}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"6.0.1\",\"architecture\":\"\",\"model\":\"Moto G (4)\",\"mobile\":true}},{\"title\":\"Moto G Power\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 11; moto g power (2022)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Mobile Safari/537.36\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":1.75,\"vertical\":{\"width\":412,\"height\":823},\"horizontal\":{\"width\":823,\"height\":412}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"11\",\"architecture\":\"\",\"model\":\"moto g power (2022)\",\"mobile\":true}},{\"title\":\"Facebook on Android\",\"type\":\"phone\",\"user-agent\":\"Mozilla/5.0 (Linux; Android 12; Pixel 6 Build/SQ3A.220705.004; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.0.0 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/407.0.0.0.65;]\",\"capabilities\":[\"touch\",\"mobile\"],\"screen\":{\"device-pixel-ratio\":3.5,\"vertical\":{\"width\":412,\"height\":892},\"horizontal\":{\"width\":892,\"height\":412}},\"modes\":[{\"title\":\"default\",\"orientation\":\"vertical\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}},{\"title\":\"default\",\"orientation\":\"horizontal\",\"insets\":{\"left\":0,\"top\":0,\"right\":0,\"bottom\":0}}],\"show-by-default\":false,\"dual-screen\":false,\"foldable-screen\":false,\"show\":\"Default\",\"user-agent-metadata\":{\"platform\":\"Android\",\"platformVersion\":\"12\",\"architecture\":\"\",\"model\":\"Pixel 6\",\"mobile\":true}}]",
          "styles-pane-sidebar-tab-order": "{\"styles\":10,\"computed\":20}"
       },
       "synced_preferences_sync_disabled": {
@@ -96,7 +105,7 @@
       "enabled": false
    },
    "domain_diversity": {
-      "last_reporting_timestamp": "13397865562644592"
+      "last_reporting_timestamp": "13397923778633520"
    },
    "enterprise_profile_guid": "0427973f-a2a6-457a-9b3a-7fb0f746ed42",
    "extensions": {
@@ -116,7 +125,14 @@
    },
    "google": {
       "services": {
-         "signin_scoped_device_id": "aa5340f1-3f18-4fee-8ce8-5547fafa89da"
+         "signin_scoped_device_id": "89b0878e-c0aa-44d9-a030-1a72769c4044"
+      }
+   },
+   "history_clusters": {
+      "all_cache": {
+         "all_keywords": {
+         },
+         "all_timestamp": "13397927410415982"
       }
    },
    "in_product_help": {
@@ -148,9 +164,9 @@
          }
       },
       "recent_session_enabled_time": "13397865562333183",
-      "recent_session_start_times": [ "13397865562333183" ],
-      "session_last_active_time": "13397874016862803",
-      "session_start_time": "13397865562333183"
+      "recent_session_start_times": [ "13397923778485115", "13397865562333183" ],
+      "session_last_active_time": "13397938832041917",
+      "session_start_time": "13397923778485115"
    },
    "intl": {
       "selected_languages": "es-ES,es"
@@ -160,6 +176,10 @@
          "1013309121859": {
          }
       }
+   },
+   "language_model_counters": {
+      "es": 1,
+      "zh-CN": 1
    },
    "media": {
       "engagement": {
@@ -173,14 +193,17 @@
    "ntp": {
       "num_personal_suggestions": 2
    },
+   "omnibox": {
+      "shown_count_history_scope_promo": 1
+   },
    "optimization_guide": {
       "hintsfetcher": {
          "hosts_successfully_fetched": {
          }
       },
       "predictionmodelfetcher": {
-         "last_fetch_attempt": "13397873996839885",
-         "last_fetch_success": "13397873997203082"
+         "last_fetch_attempt": "13397938812013857",
+         "last_fetch_success": "13397938812324226"
       },
       "previous_optimization_types_with_filter": {
          "AMERICAN_EXPRESS_CREDIT_CARD_FLIGHT_BENEFITS": true,
@@ -328,9 +351,15 @@
             },
             "client_hints": {
                "https://web.whatsapp.com:443,*": {
-                  "last_modified": "13397873987915493",
+                  "last_modified": "13397938803126029",
                   "setting": {
                      "client_hints": [ 1, 3, 11, 14, 15, 23 ]
+                  }
+               },
+               "https://www.google.com:443,*": {
+                  "last_modified": "13397927413849533",
+                  "setting": {
+                     "client_hints": [ 4, 5, 9, 10, 11, 13, 14, 15, 16, 23, 25, 29 ]
                   }
                }
             },
@@ -339,8 +368,18 @@
             "controlled_frame": {
             },
             "cookie_controls_metadata": {
+               "https://[*.]deepseek.com,*": {
+                  "last_modified": "13397927418477321",
+                  "setting": {
+                  }
+               },
+               "https://[*.]google.com,*": {
+                  "last_modified": "13397927413856804",
+                  "setting": {
+                  }
+               },
                "https://[*.]whatsapp.com,*": {
-                  "last_modified": "13397873987938386",
+                  "last_modified": "13397938803143579",
                   "setting": {
                   }
                }
@@ -425,15 +464,48 @@
             "local_network_access": {
             },
             "media_engagement": {
-               "https://web.whatsapp.com:443,*": {
-                  "expiration": "13405650021192902",
-                  "last_modified": "13397874021192906",
+               "https://chat.deepseek.com:443,*": {
+                  "expiration": "13405703424223246",
+                  "last_modified": "13397927424223252",
                   "lifetime": "7776000000000",
                   "setting": {
                      "hasHighScore": false,
                      "lastMediaPlaybackTime": 0.0,
                      "mediaPlaybacks": 0,
-                     "visits": 25
+                     "visits": 1
+                  }
+               },
+               "https://web.whatsapp.com:443,*": {
+                  "expiration": "13405714775939757",
+                  "last_modified": "13397938775939762",
+                  "lifetime": "7776000000000",
+                  "setting": {
+                     "hasHighScore": false,
+                     "lastMediaPlaybackTime": 0.0,
+                     "mediaPlaybacks": 0,
+                     "visits": 50
+                  }
+               },
+               "https://www.deepseek.com:443,*": {
+                  "expiration": "13405703425182477",
+                  "last_modified": "13397927425182482",
+                  "lifetime": "7776000000000",
+                  "setting": {
+                     "hasHighScore": false,
+                     "lastMediaPlaybackTime": 0.0,
+                     "mediaPlaybacks": 0,
+                     "visits": 1
+                  }
+               },
+               "https://www.google.com:443,*": {
+                  "expiration": "13405703416020575",
+                  "last_modified": "13397927416020578",
+                  "lifetime": "7776000000000",
+                  "setting": {
+                     "hasHighScore": false,
+                     "lastMediaPlaybackTime": 0.0,
+                     "mediaPlaybacks": 0,
+                     "visits": 1
                   }
                }
             },
@@ -487,21 +559,30 @@
             },
             "site_engagement": {
                "chrome://newtab/,*": {
-                  "last_modified": "13397873987167114",
+                  "last_modified": "13397938802304005",
                   "setting": {
-                     "lastEngagementTime": 1.3397873987167096e+16,
+                     "lastEngagementTime": 1.3397938802303988e+16,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 15.0,
-                     "rawScore": 15.0
+                     "rawScore": 29.06279522304
                   }
                },
                "https://web.whatsapp.com:443,*": {
-                  "last_modified": "13397874018906905",
+                  "last_modified": "13397938865435735",
                   "setting": {
-                     "lastEngagementTime": 1.3397874018906888e+16,
+                     "lastEngagementTime": 1.339793886543572e+16,
                      "lastShortcutLaunchTime": 0.0,
                      "pointsAddedToday": 15.0,
-                     "rawScore": 15.0
+                     "rawScore": 29.062795223040002
+                  }
+               },
+               "https://www.google.com:443,*": {
+                  "last_modified": "13397927413627107",
+                  "setting": {
+                     "lastEngagementTime": 1.33979274136271e+16,
+                     "lastShortcutLaunchTime": 0.0,
+                     "pointsAddedToday": 3.0,
+                     "rawScore": 3.0
                   }
                }
             },
@@ -569,9 +650,9 @@
          "popups": 1,
          "ppapi-broker": 1
       },
-      "exit_type": "Normal",
+      "exit_type": "SessionEnded",
       "family_member_role": "not_in_family",
-      "last_engagement_time": "13397874018906889",
+      "last_engagement_time": "13397938865435720",
       "last_time_obsolete_http_credentials_removed": 1753392974.060851,
       "last_time_password_store_metrics_reported": 1753392273.361227,
       "managed": {
@@ -587,7 +668,7 @@
          "extensions": {
             "isCurrentlyActive": false,
             "result": {
-               "timestamp": "13397869931953430",
+               "timestamp": "13397938659567036",
                "triggeringExtensions": [  ]
             }
          },
@@ -595,14 +676,14 @@
             "isCurrentlyActive": false,
             "result": {
                "notificationPermissions": [  ],
-               "timestamp": "13397869924852702"
+               "timestamp": "13397938652166835"
             }
          },
          "passwords": {
             "isCurrentlyActive": false,
             "result": {
                "passwordCheckOrigins": [  ],
-               "timestamp": "13397869924997246"
+               "timestamp": "13397938634197320"
             }
          },
          "safe-browsing": {
@@ -610,14 +691,14 @@
             "onlyShowAfterTime": "13397952941803710",
             "result": {
                "safeBrowsingStatus": 4,
-               "timestamp": "13397869931953404"
+               "timestamp": "13397938659567009"
             }
          },
          "unused-site-permissions": {
             "isCurrentlyActive": false,
             "result": {
                "permissions": [  ],
-               "timestamp": "13397869924852732"
+               "timestamp": "13397938652166948"
             }
          }
       },
@@ -649,118 +730,121 @@
             "labels": [ "NotSynced" ]
          }
       },
-      "last_db_compaction_time": "13397702399000000",
+      "last_db_compaction_time": "13397788799000000",
       "uma_in_sql_start_time": "13397865562323034"
+   },
+   "selectfile": {
+      "last_directory": "C:\\Users\\usuario\\Downloads"
    },
    "sessions": {
       "event_log": [ {
          "did_schedule_command": true,
          "first_session_service": true,
          "tab_count": 1,
-         "time": "13397869822839614",
+         "time": "13397928680273382",
          "type": 2,
          "window_count": 1
       }, {
          "crashed": false,
-         "time": "13397869924850710",
+         "time": "13397928682573058",
          "type": 0
       }, {
          "did_schedule_command": true,
          "first_session_service": true,
          "tab_count": 1,
-         "time": "13397870151071775",
+         "time": "13397932311168227",
          "type": 2,
          "window_count": 1
       }, {
          "crashed": false,
-         "time": "13397870187353009",
+         "time": "13397935702182279",
          "type": 0
       }, {
          "did_schedule_command": true,
          "first_session_service": true,
          "tab_count": 1,
-         "time": "13397870221043431",
+         "time": "13397937182401725",
          "type": 2,
          "window_count": 1
       }, {
          "crashed": false,
-         "time": "13397870449490076",
+         "time": "13397937205930876",
          "type": 0
       }, {
          "did_schedule_command": true,
          "first_session_service": true,
          "tab_count": 1,
-         "time": "13397870502004737",
+         "time": "13397937242277469",
          "type": 2,
          "window_count": 1
       }, {
          "crashed": false,
-         "time": "13397870611434182",
+         "time": "13397937297230958",
          "type": 0
       }, {
          "did_schedule_command": true,
          "first_session_service": true,
          "tab_count": 1,
-         "time": "13397870809894060",
+         "time": "13397937467548738",
          "type": 2,
          "window_count": 1
       }, {
          "crashed": false,
-         "time": "13397873471809975",
+         "time": "13397937501105493",
          "type": 0
       }, {
          "did_schedule_command": true,
          "first_session_service": true,
          "tab_count": 1,
-         "time": "13397873497523256",
+         "time": "13397938298769040",
          "type": 2,
          "window_count": 1
       }, {
          "crashed": false,
-         "time": "13397873562650754",
+         "time": "13397938313585648",
          "type": 0
       }, {
          "did_schedule_command": true,
          "first_session_service": true,
          "tab_count": 1,
-         "time": "13397873598888667",
+         "time": "13397938345561775",
          "type": 2,
          "window_count": 1
       }, {
          "crashed": false,
-         "time": "13397873778263705",
+         "time": "13397938609925178",
          "type": 0
       }, {
          "did_schedule_command": true,
          "first_session_service": true,
          "tab_count": 1,
-         "time": "13397873813767891",
+         "time": "13397938619735931",
          "type": 2,
          "window_count": 1
       }, {
          "crashed": false,
-         "time": "13397873863432481",
+         "time": "13397938634000936",
          "type": 0
       }, {
          "did_schedule_command": true,
          "first_session_service": true,
          "tab_count": 1,
-         "time": "13397873897358689",
+         "time": "13397938775932568",
          "type": 2,
          "window_count": 1
       }, {
          "crashed": false,
-         "time": "13397873986836458",
+         "time": "13397938802015742",
          "type": 0
       }, {
          "did_schedule_command": true,
          "first_session_service": true,
          "tab_count": 1,
-         "time": "13397874021183926",
+         "time": "13397940164246201",
          "type": 2,
          "window_count": 1
       } ],
-      "session_data_status": 5
+      "session_data_status": 1
    },
    "settings": {
       "force_google_safesearch": false
@@ -799,12 +883,12 @@
             "promotable": true
          }
       },
-      "daily_metrics_date": "13397803200000000",
+      "daily_metrics_date": "13397889600000000",
       "did_migrate_default_chrome_apps": [ "MigrateDefaultChromeAppToWebAppsGSuite", "MigrateDefaultChromeAppToWebAppsNonGSuite" ],
       "last_preinstall_synchronize_version": "138"
    }
 }
-[1753400672.483][INFO]: Populating Local State file: {
+[1753468027.156][INFO]: Populating Local State file: {
    "accessibility": {
       "captions": {
          "soda_registered_language_packs": [ "es-ES" ]
@@ -846,10 +930,10 @@
    },
    "network_time": {
       "network_time_mapping": {
-         "local": 1.753394322336026e+12,
-         "network": 1.753394321003e+12,
-         "ticks": 674113782.0,
-         "uncertainty": 10193050.0
+         "local": 1.753450178819799e+12,
+         "network": 1.753450175164e+12,
+         "ticks": 526595785.0,
+         "uncertainty": 10191471.0
       }
    },
    "optimization_guide": {
@@ -870,7 +954,7 @@
       "model_store_metadata": {
          "13": {
             "4F40902F3B6AE19A": {
-               "et": "13400462673750600",
+               "et": "13400530818110735",
                "kbvd": false,
                "mbd": "13\\EFB5C153BB14D509\\03B7ABD338EAA32E",
                "v": "1673999601"
@@ -894,7 +978,7 @@
          },
          "20": {
             "4F40902F3B6AE19A": {
-               "et": "13400462673933990",
+               "et": "13400530818111137",
                "kbvd": false,
                "mbd": "20\\EFB5C153BB14D509\\4059BE126669B6AC",
                "v": "1745311339"
@@ -902,7 +986,7 @@
          },
          "25": {
             "4F40902F3B6AE19A": {
-               "et": "13400462673934243",
+               "et": "13400530818111328",
                "kbvd": false,
                "mbd": "25\\EFB5C153BB14D509\\79FCF15C07D7664F",
                "v": "1751987362"
@@ -910,7 +994,7 @@
          },
          "26": {
             "4F40902F3B6AE19A": {
-               "et": "13409966673934859",
+               "et": "13410034818111495",
                "kbvd": false,
                "mbd": "26\\EFB5C153BB14D509\\8D5AE96D638A9CC7",
                "v": "1696268326"
@@ -918,7 +1002,7 @@
          },
          "45": {
             "4F40902F3B6AE19A": {
-               "et": "13400462673935154",
+               "et": "13400530818111656",
                "kbvd": false,
                "mbd": "45\\EFB5C153BB14D509\\94AC1F90D9825698",
                "v": "240731042075"
@@ -926,7 +1010,7 @@
          },
          "9": {
             "4F40902F3B6AE19A": {
-               "et": "13400462673750294",
+               "et": "13400530818110592",
                "kbvd": false,
                "mbd": "9\\EFB5C153BB14D509\\1DC1E40445088118",
                "v": "1745312779"
@@ -957,7 +1041,7 @@
    "profile": {
       "info_cache": {
          "Default": {
-            "active_time": 1753399871.934014,
+            "active_time": 1753465974.342026,
             "avatar_icon": "chrome://theme/IDR_PROFILE_AVATAR_26",
             "background_apps": false,
             "default_avatar_fill_color": -14737376,
@@ -992,7 +1076,7 @@
    "profile_network_context_service": {
       "http_cache_finch_experiment_groups": "None None None None"
    },
-   "session_id_generator_last_value": "61871215",
+   "session_id_generator_last_value": "61874300",
    "signin": {
       "active_accounts_last_emitted": "13397865562250027"
    },
@@ -1015,13 +1099,13 @@
       "discards_suggested": 0,
       "discards_urgent": 0,
       "last_daily_sample": "13397865562281757",
-      "max_tabs_per_window": 1,
+      "max_tabs_per_window": 3,
       "reloads_external": 0,
       "reloads_frozen": 0,
       "reloads_proactive": 0,
       "reloads_suggested": 0,
       "reloads_urgent": 0,
-      "total_tab_count_max": 1,
+      "total_tab_count_max": 3,
       "window_count_max": 1
    },
    "tpcd": {
@@ -1626,255 +1710,255 @@
          "eeigpngbgcognadeebkilcpcaedhellh": {
             "cohort": "1:w59:",
             "cohortname": "Auto",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "5bd243bc-092d-4436-bc8c-2cbb79d19673",
+            "pf": "c3452958-8fda-46b5-92a5-b237512cf700",
             "pv": "2025.6.13.84507"
          },
          "efniojlnjndmcbiieegkicadnoecjjef": {
             "cohort": "1:18ql:",
             "cohortname": "Auto Stage3",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "53c84c87-3ddb-42a2-b80e-d90cb72a0740",
+            "pf": "a3eb1043-05a7-479f-a6fc-27ff3c03efb5",
             "pv": "1379"
          },
          "ehgidpndbllacpjalkiimkbadgjfnnmc": {
             "cohort": "1:ofl:",
             "cohortname": "stable64",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "4131eb93-88f0-444e-98b0-fbd3fc7939e1",
+            "pf": "9c8c5f07-9cc1-4db4-b47f-19811beb3df2",
             "pv": "2018.8.8.0"
          },
          "gcmjkmgdlgnkkcocmoeiminaijmmjnii": {
             "cohort": "1:bm1:",
             "cohortname": "Stable",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "1f064a50-c293-4138-b98f-5da56f82459f",
+            "pf": "88fe5407-b75f-433a-8439-53b96cbd8ab5",
             "pv": "9.58.0"
          },
          "ggkkehgbnfjpeggfpleeakpidbkibbmn": {
             "cohort": "1:ut9/1a0f:",
             "cohortname": "M108 and Above",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "17df91ef-82de-405e-bb5b-63c95cc05259",
+            "pf": "67008c8f-758e-4c7d-afa5-4e1fc378cd16",
             "pv": "2025.7.20.1141"
          },
          "giekcmmlnklenlaomppkphknjmnnpneh": {
             "cohort": "1:j5l:",
             "cohortname": "Auto",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "93dfa8e9-c18a-4024-a756-fe7590a72ddd",
+            "pf": "e77de039-8cf4-4de7-bee8-ef1e064f68e0",
             "pv": "7"
          },
          "gonpemdgkjcecdgbnaabipppbmgfggbe": {
             "cohort": "1:z1x:35nl@0.025",
             "cohortname": "Auto",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "f919c70b-0b76-4784-88c5-b71733713cbf",
+            "pf": "a41d11fa-aaa1-4655-ada5-c5ca276418e5",
             "pv": "2025.4.2.0"
          },
          "hajigopbbjhghbfimgkfmpenfkclmohk": {
             "cohort": "1:2tdl:",
             "cohortname": "Stable",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "ad20cfb0-8c79-41c9-994b-180a690e233c",
+            "pf": "cc529b5b-c738-409f-a270-06677bfcff64",
             "pv": "3"
          },
          "hfnkpimlhhgieaddgfemjhofmfblmnib": {
             "cohort": "1:287f:",
             "cohortname": "Auto full",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
-            "max_pv": "0.0.0.0",
-            "pf": "9b96469a-4f5b-427e-92ca-4dcfb4af7b2a",
-            "pv": "9930"
+            "max_pv": "9930",
+            "pf": "74342774-ff2a-43aa-a8f0-c3fe48bce59e",
+            "pv": "9931"
          },
          "ihnlcenocehgdaegdmhbidjhnhdchfmm": {
             "cohort": "1::",
             "cohortname": "",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "installdate": 6779,
-            "pf": "497e0874-3c6b-45b1-b4bb-ea66173201a6"
+            "pf": "ea5d4199-e9fa-49f3-b08e-3d69fc93d6ee"
          },
          "jamhcnnkihinmdlkakkaopbjbbcngflc": {
             "cohort": "1:wvr:",
             "cohortname": "Auto",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "fa62bd30-bd93-48fb-9e8b-89c175d14a65",
+            "pf": "2293a33e-b0cd-4d75-aaed-cd256e7433d1",
             "pv": "120.0.6050.0"
          },
          "jflhchccmppkfebkiaminageehmchikm": {
             "cohort": "1:26yf:",
             "cohortname": "Stable",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
-            "max_pv": "0.0.0.0",
-            "pf": "3cd20f7a-d9c1-4380-bb10-f921aee6da3b",
-            "pv": "2025.7.23.1"
+            "max_pv": "2025.7.23.1",
+            "pf": "632ed33a-03ec-42f7-a5ad-15b04c4f2009",
+            "pv": "2025.7.24.1"
          },
          "jflookgnkcckhobaglndicnbbgbonegd": {
             "cohort": "1:s7x:",
             "cohortname": "Auto",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "e5a78929-5176-405d-b8ed-1c951793361d",
+            "pf": "51e06506-4e91-4138-a7aa-8ae7dbac65ed",
             "pv": "3076"
          },
          "khaoiebndkojlmppeemjhbpbandiljpe": {
             "cohort": "1:cux:",
             "cohortname": "Auto",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "0572cd98-9681-4168-88fc-8475cbb48441",
+            "pf": "404716a9-7fa5-462f-8021-a247248eba0d",
             "pv": "67"
          },
          "kiabhabjdbkjdpjbpigfodbdjmbglcoo": {
             "cohort": "1:v3l:",
             "cohortname": "Auto",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "48362e31-db76-4b5d-83cd-641abaefafbd",
+            "pf": "362adc0b-c87c-4c58-995a-fe3271c1a544",
             "pv": "2025.5.15.1"
          },
          "laoigpblnllgcgjnjnllmfolckpjlhki": {
             "cohort": "1:10zr:",
             "cohortname": "Auto",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "1.0.7.1652906823",
-            "pf": "d3ae49d8-fcf9-49cf-b656-1c692be49075",
+            "pf": "e8c83677-0c7c-4fe5-9498-4a715d924236",
             "pv": "1.0.7.1744928549"
          },
          "ldfkbgjbencjpgjfleiooeldhjdapggh": {
             "cohort": "1:2v8l:",
             "cohortname": "Auto",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "70551d2c-b7a1-4124-bd4b-585e1d3f5156",
+            "pf": "1a9b7a42-dd88-4553-b15c-5f42c943288c",
             "pv": "2025.2.18.1"
          },
          "llkgjffcdpffmhiakmfcdcblohccpfmo": {
             "cohort": "1::",
             "cohortname": "",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "b49f4e9b-11ef-4c7b-9f15-c7a911136cc8",
+            "pf": "606275d6-0734-4a27-b12a-c7bd357bb0c7",
             "pv": "1.0.0.17"
          },
          "lmelglejhemejginpboagddgdfbepgmp": {
             "cohort": "1:lwl:",
             "cohortname": "Auto",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "50d70d9a-e30b-497a-8c5b-3d2f2d7393d3",
+            "pf": "30ef3d84-49a5-4f47-a096-ff668c92db73",
             "pv": "526"
          },
          "mcfjlbnicoclaecapilmleaelokfnijm": {
             "cohort": "1:2ql3:",
             "cohortname": "Initial upload",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "68e054d4-5e4c-4638-a536-c1e672c2262f",
+            "pf": "60e1189a-681d-4e8b-8fdb-ba832b44275c",
             "pv": "2024.11.26.0"
          },
          "neifaoindggfcjicffkgpmnlppeffabd": {
             "cohort": "1:1299:",
             "cohortname": "Auto",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "933070c4-1944-4661-a459-b59c553c1502",
+            "pf": "6ab9c4c7-f701-44af-9b10-723d3e7e5fe5",
             "pv": "1.0.2738.0"
          },
          "niikhdgajlphfehepabhhblakbdgeefj": {
             "cohort": "1:1uh3:",
             "cohortname": "Auto Main Cohort.",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "2025.5.21.0",
-            "pf": "1e8f9769-9220-4230-80be-2b83d6723f54",
+            "pf": "f9ff17d6-6499-47b2-a8da-dd6fcb84ae8f",
             "pv": "2025.6.16.0"
          },
          "obedbbhbpmojnkanicioggnmelmoomoc": {
             "cohort": "1:s6f:",
             "cohortname": "Auto",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "cb8879bb-6179-4ffd-98c6-278f39f3f86f",
+            "pf": "f0e68761-a42b-458a-b243-24c6271cc245",
             "pv": "20250629.778704241.14"
          },
          "oimompecagnajdejgnnjijobebaeigek": {
             "cohort": "1:2qw3:",
             "cohortname": "Auto",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "installdate": 6779,
-            "pf": "ed7b16aa-5909-4e62-bc88-9402fcd62a8e"
+            "pf": "13d68f07-8e69-46ac-a08f-ac2e6d78677e"
          },
          "ojhpjlocmbogdgmfpkhlaaeamibhnphh": {
             "cohort": "1:w0x:",
             "cohortname": "All users",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "21e46883-333d-4f5c-9229-2294cf0b14a1",
+            "pf": "ea6a8322-1635-40dc-8863-e9ba48b27492",
             "pv": "3"
          },
          "pmagihnlncbcefglppponlgakiphldeh": {
             "cohort": "1:2ntr:",
             "cohortname": "General Release",
-            "dlrc": 6779,
+            "dlrc": 6780,
             "fp": "",
             "installdate": 6779,
             "max_pv": "0.0.0.0",
-            "pf": "52b5cc91-cf84-4d19-91b7-e5423576b213",
+            "pf": "7da084e0-4dbe-4ef9-8ba0-044dc7a69b82",
             "pv": "2024.10.17.0"
          }
       }
@@ -1884,15 +1968,16 @@
       "low_entropy_source3": 4947,
       "machine_id": 59721,
       "pseudo_low_entropy_source": 1632,
-      "session_id": 27,
+      "session_id": 56,
       "stability": {
-         "browser_last_live_timestamp": "13397874021226964",
+         "browser_last_live_timestamp": "13397940164246417",
          "exited_cleanly": true,
          "stats_buildtime": "1752517704",
          "stats_version": "138.0.7204.158-64",
          "system_crash_count": 0
       }
    },
+   "variations_crash_streak": 1,
    "variations_google_groups": {
       "Default": [  ]
    },
@@ -1901,32 +1986,32 @@
       "restarted": false
    }
 }
-[1753400672.485][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
-[1753400672.485][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
-[1753400672.486][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-blink-features=AutomationControlled --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" --user-data-dir="C:\Users\usuario\AutomationProfile"
-[1753400672.828][DEBUG]: DevTools HTTP Request: http://localhost:51655/json/version
-[1753400673.173][DEBUG]: DevTools HTTP Response: {
+[1753468027.158][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1753468027.158][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1753468027.159][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-backgrounding-occluded-windows --disable-blink-features=AutomationControlled --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" --user-data-dir="C:\Users\usuario\AutomationProfile"
+[1753468027.530][DEBUG]: DevTools HTTP Request: http://localhost:55204/json/version
+[1753468028.014][DEBUG]: DevTools HTTP Response: {
    "Browser": "Chrome/138.0.7204.158",
    "Protocol-Version": "1.3",
    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
    "V8-Version": "13.8.258.26",
    "WebKit-Version": "537.36 (@903c1a4e1274a274ac03d20a24ab16634d064418)",
-   "webSocketDebuggerUrl": "ws://localhost:51655/devtools/browser/62c06175-45b4-428f-a97c-ef7a69c35f3a"
+   "webSocketDebuggerUrl": "ws://localhost:55204/devtools/browser/8c80d791-473a-47a1-9f2a-d650c07ff0f2"
 }
 
-[1753400673.173][DEBUG]: DevTools HTTP Request: http://localhost:51655/json/list
-[1753400673.174][DEBUG]: DevTools HTTP Response: [ {
+[1753468028.014][DEBUG]: DevTools HTTP Request: http://localhost:55204/json/list
+[1753468028.109][DEBUG]: DevTools HTTP Response: [ {
    "description": "",
-   "devtoolsFrontendUrl": "https://chrome-devtools-frontend.appspot.com/serve_rev/@903c1a4e1274a274ac03d20a24ab16634d064418/inspector.html?ws=localhost:51655/devtools/page/0B30A37C83935ACFE6659CA78604A6F8",
-   "id": "0B30A37C83935ACFE6659CA78604A6F8",
+   "devtoolsFrontendUrl": "https://chrome-devtools-frontend.appspot.com/serve_rev/@903c1a4e1274a274ac03d20a24ab16634d064418/inspector.html?ws=localhost:55204/devtools/page/76DE508C79FE2CF36127D77F55E6B4D6",
+   "id": "76DE508C79FE2CF36127D77F55E6B4D6",
    "title": "Nueva pestaña",
    "type": "page",
    "url": "chrome://newtab/",
-   "webSocketDebuggerUrl": "ws://localhost:51655/devtools/page/0B30A37C83935ACFE6659CA78604A6F8"
+   "webSocketDebuggerUrl": "ws://localhost:55204/devtools/page/76DE508C79FE2CF36127D77F55E6B4D6"
 } ]
 
-[1753400673.176][INFO]: resolved localhost to ["::1","127.0.0.1"]
-[1753400673.177][DEBUG]: DevTools WebSocket Command: Target.getTargets (id=1) (session_id=) browser {
+[1753468028.183][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1753468028.191][DEBUG]: DevTools WebSocket Command: Target.getTargets (id=1) (session_id=) browser {
    "filter": [ {
       "exclude": true,
       "type": "browser"
@@ -1937,134 +2022,134 @@
       "exclude": false
    } ]
 }
-[1753400673.178][DEBUG]: DevTools WebSocket Response: Target.getTargets (id=1) (session_id=) browser {
+[1753468028.192][DEBUG]: DevTools WebSocket Response: Target.getTargets (id=1) (session_id=) browser {
    "targetInfos": [ {
       "attached": false,
-      "browserContextId": "8003F059605E975B12D7C5268AB372AB",
+      "browserContextId": "4ECD256CD10CE73BB7872F1C454DA6E4",
       "canAccessOpener": false,
-      "targetId": "EC1751431543F22465F6FB9D107CCFE9",
+      "targetId": "87D77FBDDBFDE4799443019DE527179D",
       "title": "Nueva pestaña",
       "type": "tab",
       "url": "chrome://newtab/"
    } ]
 }
-[1753400673.178][DEBUG]: DevTools WebSocket Command: Target.attachToTarget (id=2) (session_id=) browser {
+[1753468028.192][DEBUG]: DevTools WebSocket Command: Target.attachToTarget (id=2) (session_id=) browser {
    "flatten": true,
-   "targetId": "EC1751431543F22465F6FB9D107CCFE9"
+   "targetId": "87D77FBDDBFDE4799443019DE527179D"
 }
-[1753400673.178][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=) browser {
-   "sessionId": "DF50029EBF661CD5040289B8447BBF1B",
+[1753468028.193][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=) browser {
+   "sessionId": "E283D35B21E719E9C79678589A0DF9C7",
    "targetInfo": {
       "attached": true,
-      "browserContextId": "8003F059605E975B12D7C5268AB372AB",
+      "browserContextId": "4ECD256CD10CE73BB7872F1C454DA6E4",
       "canAccessOpener": false,
-      "targetId": "EC1751431543F22465F6FB9D107CCFE9",
+      "targetId": "87D77FBDDBFDE4799443019DE527179D",
       "title": "Nueva pestaña",
       "type": "tab",
       "url": "chrome://newtab/"
    },
    "waitingForDebugger": false
 }
-[1753400673.178][DEBUG]: DevTools WebSocket Response: Target.attachToTarget (id=2) (session_id=) browser {
-   "sessionId": "DF50029EBF661CD5040289B8447BBF1B"
+[1753468028.193][DEBUG]: DevTools WebSocket Response: Target.attachToTarget (id=2) (session_id=) browser {
+   "sessionId": "E283D35B21E719E9C79678589A0DF9C7"
 }
-[1753400673.178][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=3) (session_id=DF50029EBF661CD5040289B8447BBF1B) EC1751431543F22465F6FB9D107CCFE9 {
+[1753468028.193][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=3) (session_id=E283D35B21E719E9C79678589A0DF9C7) 87D77FBDDBFDE4799443019DE527179D {
    "autoAttach": true,
    "flatten": true,
    "waitForDebuggerOnStart": false
 }
-[1753400673.179][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=DF50029EBF661CD5040289B8447BBF1B) EC1751431543F22465F6FB9D107CCFE9 {
-   "sessionId": "B41B31003F60C68623B46896DB1462CB",
+[1753468028.194][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=E283D35B21E719E9C79678589A0DF9C7) 87D77FBDDBFDE4799443019DE527179D {
+   "sessionId": "5413C69ECF128E38ED06AC66CC3C783C",
    "targetInfo": {
       "attached": true,
-      "browserContextId": "8003F059605E975B12D7C5268AB372AB",
+      "browserContextId": "4ECD256CD10CE73BB7872F1C454DA6E4",
       "canAccessOpener": false,
-      "targetId": "0B30A37C83935ACFE6659CA78604A6F8",
+      "targetId": "76DE508C79FE2CF36127D77F55E6B4D6",
       "title": "Nueva pestaña",
       "type": "page",
       "url": "chrome://newtab/"
    },
    "waitingForDebugger": false
 }
-[1753400673.179][DEBUG]: DevTools WebSocket Command: Page.enable (id=4) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.194][DEBUG]: DevTools WebSocket Command: Page.enable (id=4) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
 }
-[1753400673.179][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=5) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.194][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=5) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_a..."
 }
-[1753400673.179][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=6) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.194][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=6) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_a..."
 }
-[1753400673.180][DEBUG]: DevTools WebSocket Command: Log.enable (id=7) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.195][DEBUG]: DevTools WebSocket Command: Log.enable (id=7) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
 }
-[1753400673.180][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=8) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.195][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=8) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "autoAttach": true,
    "flatten": true,
    "waitForDebuggerOnStart": false
 }
-[1753400673.180][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=3) (session_id=DF50029EBF661CD5040289B8447BBF1B) EC1751431543F22465F6FB9D107CCFE9 {
+[1753468028.196][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=3) (session_id=E283D35B21E719E9C79678589A0DF9C7) 87D77FBDDBFDE4799443019DE527179D {
 }
-[1753400673.180][DEBUG]: DevTools WebSocket Response: Page.enable (id=4) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.196][DEBUG]: DevTools WebSocket Response: Page.enable (id=4) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
 }
-[1753400673.180][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=5) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.196][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=5) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "identifier": "1"
 }
-[1753400673.180][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=6) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.196][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=6) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "result": {
       "type": "undefined"
    }
 }
-[1753400673.180][DEBUG]: DevTools WebSocket Response: Log.enable (id=7) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.196][DEBUG]: DevTools WebSocket Response: Log.enable (id=7) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
 }
-[1753400673.180][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=8) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.196][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=8) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
 }
-[1753400673.180][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=9) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.196][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=9) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
 }
-[1753400673.182][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.205][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "context": {
       "auxData": {
-         "frameId": "BB77355A2364D5F11B72D45DBEA29204",
+         "frameId": "F87EFB9F0400C4876FDAC1ECC158FE7B",
          "isDefault": true,
          "type": "default"
       },
       "id": 3,
       "name": "",
       "origin": "chrome://new-tab-page",
-      "uniqueId": "-5983261410087073310.5963219162396698103"
+      "uniqueId": "1876205481803008516.-7022902618097599767"
    }
 }
-[1753400673.182][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.205][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "context": {
       "auxData": {
-         "frameId": "545A53AB217A1E4BBC0AD91AEAD2A111",
+         "frameId": "B17E973AE69044FEF9A4CF3B4821C5BA",
          "isDefault": true,
          "type": "default"
       },
       "id": 2,
       "name": "",
       "origin": "chrome://new-tab-page",
-      "uniqueId": "-5110150943063230726.-949123178811419974"
+      "uniqueId": "7080506419671052975.2768911301924426910"
    }
 }
-[1753400673.182][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.205][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "context": {
       "auxData": {
-         "frameId": "0B30A37C83935ACFE6659CA78604A6F8",
+         "frameId": "76DE508C79FE2CF36127D77F55E6B4D6",
          "isDefault": true,
          "type": "default"
       },
       "id": 1,
       "name": "",
       "origin": "chrome://new-tab-page",
-      "uniqueId": "-768845751969388274.7210834493072368002"
+      "uniqueId": "-6960056681380840094.6193608456187143295"
    }
 }
-[1753400673.182][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=9) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.205][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=9) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
 }
-[1753400673.182][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=10) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.205][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=10) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
 }
-[1753400673.183][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=10) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.206][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=10) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
 }
-[1753400673.183][INFO]: [39ed752b808998b86f9754ff810d3a04] RESPONSE InitSession {
+[1753468028.206][INFO]: [d2beb964b3a21ab865323736dc48240e] RESPONSE InitSession {
    "capabilities": {
       "acceptInsecureCerts": false,
       "browserName": "chrome",
@@ -2075,7 +2160,7 @@
       },
       "fedcm:accounts": true,
       "goog:chromeOptions": {
-         "debuggerAddress": "localhost:51655"
+         "debuggerAddress": "localhost:55204"
       },
       "networkConnectionEnabled": false,
       "pageLoadStrategy": "normal",
@@ -2096,40 +2181,40 @@
       "webauthn:extension:prf": true,
       "webauthn:virtualAuthenticators": true
    },
-   "sessionId": "39ed752b808998b86f9754ff810d3a04"
+   "sessionId": "d2beb964b3a21ab865323736dc48240e"
 }
-[1753400673.186][INFO]: [39ed752b808998b86f9754ff810d3a04] COMMAND ExecuteScript {
+[1753468028.207][INFO]: [d2beb964b3a21ab865323736dc48240e] COMMAND ExecuteScript {
    "args": [  ],
    "script": "Object.defineProperty(navigator, 'webdriver', {get: () => undefined})"
 }
-[1753400673.186][INFO]: Waiting for pending navigations...
-[1753400673.186][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=11) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.207][INFO]: Waiting for pending navigations...
+[1753468028.207][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=11) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "expression": "1"
 }
-[1753400673.187][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=11) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.208][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=11) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "result": {
       "description": "1",
       "type": "number",
       "value": 1
    }
 }
-[1753400673.187][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=12) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.208][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=12) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "expression": "document",
-   "objectGroup": "46b7e3d0-0ae3-4c8f-97fc-a1904d378dbc"
+   "objectGroup": "05e14ba4-0320-4b69-be67-dc46e1ced3c7"
 }
-[1753400673.188][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=12) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.209][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=12) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "result": {
       "className": "HTMLDocument",
       "description": "#document",
-      "objectId": "9171884121062830195.1.1",
+      "objectId": "3476962866422111620.1.1",
       "subtype": "node",
       "type": "object"
    }
 }
-[1753400673.188][DEBUG]: DevTools WebSocket Command: DOM.describeNode (id=13) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "objectId": "9171884121062830195.1.1"
+[1753468028.209][DEBUG]: DevTools WebSocket Command: DOM.describeNode (id=13) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "objectId": "3476962866422111620.1.1"
 }
-[1753400673.189][DEBUG]: DevTools WebSocket Response: DOM.describeNode (id=13) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.210][DEBUG]: DevTools WebSocket Response: DOM.describeNode (id=13) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "node": {
       "backendNodeId": 1,
       "baseURL": "chrome://new-tab-page/",
@@ -2144,27 +2229,27 @@
       "xmlVersion": ""
    }
 }
-[1753400673.189][DEBUG]: DevTools WebSocket Command: Runtime.releaseObjectGroup (id=14) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "objectGroup": "46b7e3d0-0ae3-4c8f-97fc-a1904d378dbc"
+[1753468028.210][DEBUG]: DevTools WebSocket Command: Runtime.releaseObjectGroup (id=14) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "objectGroup": "05e14ba4-0320-4b69-be67-dc46e1ced3c7"
 }
-[1753400673.189][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=15) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.210][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=15) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "awaitPromise": false,
    "expression": "document.readyState",
    "returnByValue": true,
-   "uniqueContextId": "-768845751969388274.7210834493072368002"
+   "uniqueContextId": "-6960056681380840094.6193608456187143295"
 }
-[1753400673.190][DEBUG]: DevTools WebSocket Response: Runtime.releaseObjectGroup (id=14) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.210][DEBUG]: DevTools WebSocket Response: Runtime.releaseObjectGroup (id=14) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
 }
-[1753400673.190][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=15) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.210][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=15) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "result": {
       "type": "string",
       "value": "complete"
    }
 }
-[1753400673.190][INFO]: Done waiting for pending navigations. Status: ok
-[1753400673.190][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=16) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.210][INFO]: Done waiting for pending navigations. Status: ok
+[1753468028.211][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=16) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
 }
-[1753400673.190][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=16) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.211][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=16) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "frameTree": {
       "childFrames": [ {
          "frame": {
@@ -2175,11 +2260,11 @@
             "crossOriginIsolatedContextType": "NotIsolated",
             "domainAndRegistry": "",
             "gatedAPIFeatures": [  ],
-            "id": "545A53AB217A1E4BBC0AD91AEAD2A111",
-            "loaderId": "C83EBAC665EEB535DA8A13CD9B61D1FB",
+            "id": "B17E973AE69044FEF9A4CF3B4821C5BA",
+            "loaderId": "418647432AE77256E20BAB031F357BD1",
             "mimeType": "text/html",
             "name": "backgroundImage",
-            "parentId": "0B30A37C83935ACFE6659CA78604A6F8",
+            "parentId": "76DE508C79FE2CF36127D77F55E6B4D6",
             "secureContextType": "Secure",
             "securityOrigin": "://",
             "securityOriginDetails": {
@@ -2196,11 +2281,11 @@
             "crossOriginIsolatedContextType": "NotIsolated",
             "domainAndRegistry": "",
             "gatedAPIFeatures": [  ],
-            "id": "BB77355A2364D5F11B72D45DBEA29204",
-            "loaderId": "B8D5E87FAA8E2638D056A9934CAEF1F0",
+            "id": "F87EFB9F0400C4876FDAC1ECC158FE7B",
+            "loaderId": "7744C7AB280CD30EFB1BEA78D62AF86B",
             "mimeType": "text/html",
             "name": "iframe",
-            "parentId": "0B30A37C83935ACFE6659CA78604A6F8",
+            "parentId": "76DE508C79FE2CF36127D77F55E6B4D6",
             "secureContextType": "Secure",
             "securityOrigin": "://",
             "securityOriginDetails": {
@@ -2216,8 +2301,8 @@
          "crossOriginIsolatedContextType": "NotIsolated",
          "domainAndRegistry": "",
          "gatedAPIFeatures": [  ],
-         "id": "0B30A37C83935ACFE6659CA78604A6F8",
-         "loaderId": "1C1F28CE9ED95A80FCF9171039F4EEFA",
+         "id": "76DE508C79FE2CF36127D77F55E6B4D6",
+         "loaderId": "7EB03E0792C5B2162862455C89DC79A0",
          "mimeType": "text/html",
          "secureContextType": "Secure",
          "securityOrigin": "chrome://new-tab-page",
@@ -2228,9 +2313,9 @@
       }
    }
 }
-[1753400673.190][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=17) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.211][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=17) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
 }
-[1753400673.191][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=17) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.213][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=17) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "frameTree": {
       "childFrames": [ {
          "frame": {
@@ -2241,11 +2326,11 @@
             "crossOriginIsolatedContextType": "NotIsolated",
             "domainAndRegistry": "",
             "gatedAPIFeatures": [  ],
-            "id": "545A53AB217A1E4BBC0AD91AEAD2A111",
-            "loaderId": "C83EBAC665EEB535DA8A13CD9B61D1FB",
+            "id": "B17E973AE69044FEF9A4CF3B4821C5BA",
+            "loaderId": "418647432AE77256E20BAB031F357BD1",
             "mimeType": "text/html",
             "name": "backgroundImage",
-            "parentId": "0B30A37C83935ACFE6659CA78604A6F8",
+            "parentId": "76DE508C79FE2CF36127D77F55E6B4D6",
             "secureContextType": "Secure",
             "securityOrigin": "://",
             "securityOriginDetails": {
@@ -2262,11 +2347,11 @@
             "crossOriginIsolatedContextType": "NotIsolated",
             "domainAndRegistry": "",
             "gatedAPIFeatures": [  ],
-            "id": "BB77355A2364D5F11B72D45DBEA29204",
-            "loaderId": "B8D5E87FAA8E2638D056A9934CAEF1F0",
+            "id": "F87EFB9F0400C4876FDAC1ECC158FE7B",
+            "loaderId": "7744C7AB280CD30EFB1BEA78D62AF86B",
             "mimeType": "text/html",
             "name": "iframe",
-            "parentId": "0B30A37C83935ACFE6659CA78604A6F8",
+            "parentId": "76DE508C79FE2CF36127D77F55E6B4D6",
             "secureContextType": "Secure",
             "securityOrigin": "://",
             "securityOriginDetails": {
@@ -2282,8 +2367,8 @@
          "crossOriginIsolatedContextType": "NotIsolated",
          "domainAndRegistry": "",
          "gatedAPIFeatures": [  ],
-         "id": "0B30A37C83935ACFE6659CA78604A6F8",
-         "loaderId": "1C1F28CE9ED95A80FCF9171039F4EEFA",
+         "id": "76DE508C79FE2CF36127D77F55E6B4D6",
+         "loaderId": "7EB03E0792C5B2162862455C89DC79A0",
          "mimeType": "text/html",
          "secureContextType": "Secure",
          "securityOrigin": "chrome://new-tab-page",
@@ -2294,16 +2379,16 @@
       }
    }
 }
-[1753400673.191][DEBUG]: DevTools WebSocket Command: Runtime.callFunctionOn (id=18) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.213][DEBUG]: DevTools WebSocket Command: Runtime.callFunctionOn (id=18) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "arguments": [  ],
    "awaitPromise": true,
    "functionDeclaration": "function(){ return (function() { // Copyright 2012 The Chromium Authors\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum for WebD...",
    "serializationOptions": {
       "serialization": "deep"
    },
-   "uniqueContextId": "-768845751969388274.7210834493072368002"
+   "uniqueContextId": "-6960056681380840094.6193608456187143295"
 }
-[1753400673.193][DEBUG]: DevTools WebSocket Response: Runtime.callFunctionOn (id=18) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.216][DEBUG]: DevTools WebSocket Response: Runtime.callFunctionOn (id=18) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "result": {
       "className": "Array",
       "deepSerializedValue": {
@@ -2314,227 +2399,227 @@
          } ]
       },
       "description": "Array(1)",
-      "objectId": "9171884121062830195.1.2",
+      "objectId": "3476962866422111620.1.2",
       "subtype": "array",
       "type": "object"
    }
 }
-[1753400673.193][INFO]: Waiting for pending navigations...
-[1753400673.193][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=19) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.216][INFO]: Waiting for pending navigations...
+[1753468028.216][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=19) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "expression": "1"
 }
-[1753400673.194][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=19) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.216][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=19) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "result": {
       "description": "1",
       "type": "number",
       "value": 1
    }
 }
-[1753400673.194][INFO]: Done waiting for pending navigations. Status: ok
-[1753400673.194][INFO]: [39ed752b808998b86f9754ff810d3a04] RESPONSE ExecuteScript null
-[1753400673.195][INFO]: [39ed752b808998b86f9754ff810d3a04] COMMAND SetWindowRect {
+[1753468028.216][INFO]: Done waiting for pending navigations. Status: ok
+[1753468028.216][INFO]: [d2beb964b3a21ab865323736dc48240e] RESPONSE ExecuteScript null
+[1753468028.221][INFO]: [d2beb964b3a21ab865323736dc48240e] COMMAND SetWindowRect {
    "height": 780,
    "width": 1380,
    "x": null,
    "y": null
 }
-[1753400673.195][INFO]: Waiting for pending navigations...
-[1753400673.195][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=20) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.221][INFO]: Waiting for pending navigations...
+[1753468028.221][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=20) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "expression": "1"
 }
-[1753400673.196][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=20) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.222][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=20) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "result": {
       "description": "1",
       "type": "number",
       "value": 1
    }
 }
-[1753400673.196][INFO]: Done waiting for pending navigations. Status: ok
-[1753400673.196][DEBUG]: DevTools WebSocket Command: Browser.getWindowForTarget (id=21) (session_id=) browser {
-   "targetId": "0B30A37C83935ACFE6659CA78604A6F8"
+[1753468028.222][INFO]: Done waiting for pending navigations. Status: ok
+[1753468028.222][DEBUG]: DevTools WebSocket Command: Browser.getWindowForTarget (id=21) (session_id=) browser {
+   "targetId": "76DE508C79FE2CF36127D77F55E6B4D6"
 }
-[1753400673.197][DEBUG]: DevTools WebSocket Response: Browser.getWindowForTarget (id=21) (session_id=) browser {
+[1753468028.222][DEBUG]: DevTools WebSocket Response: Browser.getWindowForTarget (id=21) (session_id=) browser {
    "bounds": {
       "height": 780,
-      "left": 298,
-      "top": 199,
+      "left": 407,
+      "top": 95,
       "width": 1380,
       "windowState": "normal"
    },
-   "windowId": 61871266
+   "windowId": 61874351
 }
-[1753400673.197][DEBUG]: DevTools WebSocket Command: Browser.setWindowBounds (id=22) (session_id=) browser {
+[1753468028.222][DEBUG]: DevTools WebSocket Command: Browser.setWindowBounds (id=22) (session_id=) browser {
    "bounds": {
       "height": 780,
       "width": 1380
    },
-   "windowId": 61871266
+   "windowId": 61874351
 }
-[1753400673.198][DEBUG]: DevTools WebSocket Response: Browser.setWindowBounds (id=22) (session_id=) browser {
+[1753468028.223][DEBUG]: DevTools WebSocket Response: Browser.setWindowBounds (id=22) (session_id=) browser {
 }
-[1753400673.198][DEBUG]: DevTools WebSocket Command: Browser.getWindowForTarget (id=23) (session_id=) browser {
-   "targetId": "0B30A37C83935ACFE6659CA78604A6F8"
+[1753468028.223][DEBUG]: DevTools WebSocket Command: Browser.getWindowForTarget (id=23) (session_id=) browser {
+   "targetId": "76DE508C79FE2CF36127D77F55E6B4D6"
 }
-[1753400673.198][DEBUG]: DevTools WebSocket Response: Browser.getWindowForTarget (id=23) (session_id=) browser {
+[1753468028.223][DEBUG]: DevTools WebSocket Response: Browser.getWindowForTarget (id=23) (session_id=) browser {
    "bounds": {
       "height": 780,
-      "left": 298,
-      "top": 199,
+      "left": 407,
+      "top": 95,
       "width": 1380,
       "windowState": "normal"
    },
-   "windowId": 61871266
+   "windowId": 61874351
 }
-[1753400673.198][INFO]: Waiting for pending navigations...
-[1753400673.198][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=24) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.223][INFO]: Waiting for pending navigations...
+[1753468028.223][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=24) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "expression": "1"
 }
-[1753400673.199][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=24) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.224][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=24) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "result": {
       "description": "1",
       "type": "number",
       "value": 1
    }
 }
-[1753400673.199][INFO]: Done waiting for pending navigations. Status: ok
-[1753400673.199][INFO]: [39ed752b808998b86f9754ff810d3a04] RESPONSE SetWindowRect {
+[1753468028.224][INFO]: Done waiting for pending navigations. Status: ok
+[1753468028.224][INFO]: [d2beb964b3a21ab865323736dc48240e] RESPONSE SetWindowRect {
    "height": 780,
    "width": 1380,
-   "x": 298,
-   "y": 199
+   "x": 407,
+   "y": 95
 }
-[1753400673.200][INFO]: [39ed752b808998b86f9754ff810d3a04] COMMAND Navigate {
+[1753468028.225][INFO]: [d2beb964b3a21ab865323736dc48240e] COMMAND Navigate {
    "url": "https://web.whatsapp.com"
 }
-[1753400673.200][INFO]: Waiting for pending navigations...
-[1753400673.200][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=25) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.225][INFO]: Waiting for pending navigations...
+[1753468028.225][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=25) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "expression": "1"
 }
-[1753400673.202][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=25) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.226][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=25) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "result": {
       "description": "1",
       "type": "number",
       "value": 1
    }
 }
-[1753400673.202][INFO]: Done waiting for pending navigations. Status: ok
-[1753400673.202][DEBUG]: DevTools WebSocket Command: Page.navigate (id=26) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.226][INFO]: Done waiting for pending navigations. Status: ok
+[1753468028.226][DEBUG]: DevTools WebSocket Command: Page.navigate (id=26) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "url": "https://web.whatsapp.com"
 }
-[1753400673.213][DEBUG]: DevTools WebSocket Event: Page.frameStartedNavigating (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frameId": "0B30A37C83935ACFE6659CA78604A6F8",
-   "loaderId": "894C5427E9AB76B636672F6C8CD19038",
+[1753468028.243][DEBUG]: DevTools WebSocket Event: Page.frameStartedNavigating (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "frameId": "76DE508C79FE2CF36127D77F55E6B4D6",
+   "loaderId": "3F16C5A4C03833BF4305F21127A5C87F",
    "navigationType": "differentDocument",
    "url": "https://web.whatsapp.com/"
 }
-[1753400673.213][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frameId": "0B30A37C83935ACFE6659CA78604A6F8"
+[1753468028.243][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "frameId": "76DE508C79FE2CF36127D77F55E6B4D6"
 }
-[1753400673.214][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "sessionId": "B324BEA19565CDD26AD03CEBC1B5012E",
+[1753468028.243][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "sessionId": "6894C1E41940FF2C9E8F4F48334C9A28",
    "targetInfo": {
       "attached": true,
-      "browserContextId": "8003F059605E975B12D7C5268AB372AB",
+      "browserContextId": "4ECD256CD10CE73BB7872F1C454DA6E4",
       "canAccessOpener": false,
-      "targetId": "A4F53B6C05944A55C38FF3D6873DBBE0",
+      "targetId": "C14D13E1BA51567340B4C1FD417C9BAA",
       "title": "Service Worker https://web.whatsapp.com/sw.js",
       "type": "service_worker",
       "url": "https://web.whatsapp.com/sw.js"
    },
    "waitingForDebugger": false
 }
-[1753400673.260][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "sessionId": "4B7DA43798C66FADB8AC81B5E410AEF9",
+[1753468028.313][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "sessionId": "A1596DEBDDD9364F22B3755FAABBD2DE",
    "targetInfo": {
       "attached": true,
-      "browserContextId": "8003F059605E975B12D7C5268AB372AB",
+      "browserContextId": "4ECD256CD10CE73BB7872F1C454DA6E4",
       "canAccessOpener": false,
-      "targetId": "BB77355A2364D5F11B72D45DBEA29204",
+      "targetId": "F87EFB9F0400C4876FDAC1ECC158FE7B",
       "title": "chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=",
       "type": "iframe",
       "url": "chrome-untrusted://new-tab-page/one-google-bar?paramsencoded="
    },
    "waitingForDebugger": false
 }
-[1753400673.260][DEBUG]: DevTools WebSocket Command: Page.enable (id=27) (session_id=4B7DA43798C66FADB8AC81B5E410AEF9) 4B7DA43798C66FADB8AC81B5E410AEF9 {
+[1753468028.313][DEBUG]: DevTools WebSocket Command: Page.enable (id=27) (session_id=A1596DEBDDD9364F22B3755FAABBD2DE) A1596DEBDDD9364F22B3755FAABBD2DE {
 }
-[1753400673.260][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=28) (session_id=4B7DA43798C66FADB8AC81B5E410AEF9) 4B7DA43798C66FADB8AC81B5E410AEF9 {
+[1753468028.315][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=28) (session_id=A1596DEBDDD9364F22B3755FAABBD2DE) A1596DEBDDD9364F22B3755FAABBD2DE {
    "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_a..."
 }
-[1753400673.260][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=29) (session_id=4B7DA43798C66FADB8AC81B5E410AEF9) 4B7DA43798C66FADB8AC81B5E410AEF9 {
+[1753468028.316][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=29) (session_id=A1596DEBDDD9364F22B3755FAABBD2DE) A1596DEBDDD9364F22B3755FAABBD2DE {
    "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_a..."
 }
-[1753400673.260][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=30) (session_id=4B7DA43798C66FADB8AC81B5E410AEF9) 4B7DA43798C66FADB8AC81B5E410AEF9 {
+[1753468028.341][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=30) (session_id=A1596DEBDDD9364F22B3755FAABBD2DE) A1596DEBDDD9364F22B3755FAABBD2DE {
    "autoAttach": true,
    "flatten": true,
    "waitForDebuggerOnStart": false
 }
-[1753400673.260][DEBUG]: DevTools WebSocket Event: Page.frameDetached (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frameId": "BB77355A2364D5F11B72D45DBEA29204",
+[1753468028.341][DEBUG]: DevTools WebSocket Event: Page.frameDetached (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "frameId": "F87EFB9F0400C4876FDAC1ECC158FE7B",
    "reason": "swap"
 }
-[1753400673.260][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.341][DEBUG]: DevTools WebSocket Event: Runtime.executionContextDestroyed (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "executionContextId": 3,
-   "executionContextUniqueId": "-5983261410087073310.5963219162396698103"
+   "executionContextUniqueId": "1876205481803008516.-7022902618097599767"
 }
-[1753400673.274][DEBUG]: DevTools WebSocket Response: Page.enable (id=27) (session_id=4B7DA43798C66FADB8AC81B5E410AEF9) 4B7DA43798C66FADB8AC81B5E410AEF9 {
+[1753468028.399][DEBUG]: DevTools WebSocket Response: Page.enable (id=27) (session_id=A1596DEBDDD9364F22B3755FAABBD2DE) A1596DEBDDD9364F22B3755FAABBD2DE {
 }
-[1753400673.274][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=28) (session_id=4B7DA43798C66FADB8AC81B5E410AEF9) 4B7DA43798C66FADB8AC81B5E410AEF9 {
+[1753468028.400][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=28) (session_id=A1596DEBDDD9364F22B3755FAABBD2DE) A1596DEBDDD9364F22B3755FAABBD2DE {
    "identifier": "1"
 }
-[1753400673.274][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=29) (session_id=4B7DA43798C66FADB8AC81B5E410AEF9) 4B7DA43798C66FADB8AC81B5E410AEF9 {
+[1753468028.400][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=29) (session_id=A1596DEBDDD9364F22B3755FAABBD2DE) A1596DEBDDD9364F22B3755FAABBD2DE {
    "result": {
       "type": "undefined"
    }
 }
-[1753400673.274][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=30) (session_id=4B7DA43798C66FADB8AC81B5E410AEF9) 4B7DA43798C66FADB8AC81B5E410AEF9 {
+[1753468028.400][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=30) (session_id=A1596DEBDDD9364F22B3755FAABBD2DE) A1596DEBDDD9364F22B3755FAABBD2DE {
 }
-[1753400673.274][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=31) (session_id=4B7DA43798C66FADB8AC81B5E410AEF9) 4B7DA43798C66FADB8AC81B5E410AEF9 {
+[1753468028.400][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=31) (session_id=A1596DEBDDD9364F22B3755FAABBD2DE) A1596DEBDDD9364F22B3755FAABBD2DE {
 }
-[1753400673.343][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=4B7DA43798C66FADB8AC81B5E410AEF9) 4B7DA43798C66FADB8AC81B5E410AEF9 {
+[1753468028.410][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=A1596DEBDDD9364F22B3755FAABBD2DE) A1596DEBDDD9364F22B3755FAABBD2DE {
    "context": {
       "auxData": {
-         "frameId": "BB77355A2364D5F11B72D45DBEA29204",
+         "frameId": "F87EFB9F0400C4876FDAC1ECC158FE7B",
          "isDefault": true,
          "type": "default"
       },
       "id": 1,
       "name": "",
       "origin": "chrome-untrusted://new-tab-page",
-      "uniqueId": "-9001019966886560398.8394756064597927682"
+      "uniqueId": "-5155531849622071680.6731624905208040286"
    }
 }
-[1753400673.343][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=31) (session_id=4B7DA43798C66FADB8AC81B5E410AEF9) 4B7DA43798C66FADB8AC81B5E410AEF9 {
+[1753468028.410][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=31) (session_id=A1596DEBDDD9364F22B3755FAABBD2DE) A1596DEBDDD9364F22B3755FAABBD2DE {
 }
-[1753400673.343][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=4B7DA43798C66FADB8AC81B5E410AEF9) 4B7DA43798C66FADB8AC81B5E410AEF9 {
-   "timestamp": 7025.11949
+[1753468028.420][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=A1596DEBDDD9364F22B3755FAABBD2DE) A1596DEBDDD9364F22B3755FAABBD2DE {
+   "timestamp": 18376.192259
 }
-[1753400673.433][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=4B7DA43798C66FADB8AC81B5E410AEF9) 4B7DA43798C66FADB8AC81B5E410AEF9 {
-   "timestamp": 7025.209846
+[1753468028.527][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=A1596DEBDDD9364F22B3755FAABBD2DE) A1596DEBDDD9364F22B3755FAABBD2DE {
+   "timestamp": 18376.302022
 }
-[1753400673.433][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=4B7DA43798C66FADB8AC81B5E410AEF9) 4B7DA43798C66FADB8AC81B5E410AEF9 {
-   "frameId": "BB77355A2364D5F11B72D45DBEA29204"
+[1753468028.527][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=A1596DEBDDD9364F22B3755FAABBD2DE) A1596DEBDDD9364F22B3755FAABBD2DE {
+   "frameId": "F87EFB9F0400C4876FDAC1ECC158FE7B"
 }
-[1753400673.554][DEBUG]: DevTools WebSocket Response: Page.navigate (id=26) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frameId": "0B30A37C83935ACFE6659CA78604A6F8",
-   "loaderId": "894C5427E9AB76B636672F6C8CD19038"
+[1753468028.825][DEBUG]: DevTools WebSocket Response: Page.navigate (id=26) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "frameId": "76DE508C79FE2CF36127D77F55E6B4D6",
+   "loaderId": "3F16C5A4C03833BF4305F21127A5C87F"
 }
-[1753400673.554][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=32) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.825][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=32) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "expression": "document.URL"
 }
-[1753400673.554][DEBUG]: DevTools WebSocket Event: Target.detachedFromTarget (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "sessionId": "4B7DA43798C66FADB8AC81B5E410AEF9",
-   "targetId": "BB77355A2364D5F11B72D45DBEA29204"
+[1753468028.826][DEBUG]: DevTools WebSocket Event: Target.detachedFromTarget (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "sessionId": "A1596DEBDDD9364F22B3755FAABBD2DE",
+   "targetId": "F87EFB9F0400C4876FDAC1ECC158FE7B"
 }
-[1753400673.554][DEBUG]: DevTools WebSocket Event: Target.detachedFromTarget (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "sessionId": "B324BEA19565CDD26AD03CEBC1B5012E",
-   "targetId": "A4F53B6C05944A55C38FF3D6873DBBE0"
+[1753468028.826][DEBUG]: DevTools WebSocket Event: Target.detachedFromTarget (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "sessionId": "6894C1E41940FF2C9E8F4F48334C9A28",
+   "targetId": "C14D13E1BA51567340B4C1FD417C9BAA"
 }
-[1753400673.557][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.826][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
 }
-[1753400673.558][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.826][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
 }
-[1753400673.558][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.826][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "frame": {
       "adFrameStatus": {
          "adFrameType": "none"
@@ -2542,8 +2627,8 @@
       "crossOriginIsolatedContextType": "NotIsolated",
       "domainAndRegistry": "whatsapp.com",
       "gatedAPIFeatures": [  ],
-      "id": "0B30A37C83935ACFE6659CA78604A6F8",
-      "loaderId": "894C5427E9AB76B636672F6C8CD19038",
+      "id": "76DE508C79FE2CF36127D77F55E6B4D6",
+      "loaderId": "3F16C5A4C03833BF4305F21127A5C87F",
       "mimeType": "text/html",
       "secureContextType": "Secure",
       "securityOrigin": "https://web.whatsapp.com",
@@ -2554,70 +2639,70 @@
    },
    "type": "Navigation"
 }
-[1753400673.587][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "sessionId": "7FC6C424C861176A209D64980C1E0C08",
+[1753468028.826][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "sessionId": "455DF66387E3C660240BF37A674681F7",
    "targetInfo": {
       "attached": true,
-      "browserContextId": "8003F059605E975B12D7C5268AB372AB",
+      "browserContextId": "4ECD256CD10CE73BB7872F1C454DA6E4",
       "canAccessOpener": false,
-      "targetId": "A4F53B6C05944A55C38FF3D6873DBBE0",
+      "targetId": "C14D13E1BA51567340B4C1FD417C9BAA",
       "title": "Service Worker https://web.whatsapp.com/sw.js",
       "type": "service_worker",
       "url": "https://web.whatsapp.com/sw.js"
    },
    "waitingForDebugger": false
 }
-[1753400673.587][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.826][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "context": {
       "auxData": {
-         "frameId": "0B30A37C83935ACFE6659CA78604A6F8",
+         "frameId": "76DE508C79FE2CF36127D77F55E6B4D6",
          "isDefault": true,
          "type": "default"
       },
       "id": 1,
       "name": "",
       "origin": "https://web.whatsapp.com",
-      "uniqueId": "-7679174331680580155.7015799505157489899"
+      "uniqueId": "-2750084532463595168.-5185705341634130185"
    }
 }
-[1753400673.587][DEBUG]: DevTools WebSocket Event: Page.frameDetached (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frameId": "BB77355A2364D5F11B72D45DBEA29204",
+[1753468028.826][DEBUG]: DevTools WebSocket Event: Page.frameDetached (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "frameId": "F87EFB9F0400C4876FDAC1ECC158FE7B",
    "reason": "remove"
 }
-[1753400673.590][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=32) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.830][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=32) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "result": {
       "type": "string",
       "value": "https://web.whatsapp.com/"
    }
 }
-[1753400673.590][INFO]: Waiting for pending navigations...
-[1753400673.590][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=33) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.830][INFO]: Waiting for pending navigations...
+[1753468028.830][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=33) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "expression": "1"
 }
-[1753400673.591][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=33) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.848][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=33) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "result": {
       "description": "1",
       "type": "number",
       "value": 1
    }
 }
-[1753400673.591][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=34) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.848][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=34) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "expression": "document",
-   "objectGroup": "7704a5c0-4858-4b1b-b516-e1bd5aeb5d4b"
+   "objectGroup": "dda80c46-8c09-40ad-9a60-820a3f3dada8"
 }
-[1753400673.592][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=34) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.861][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=34) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "result": {
       "className": "HTMLDocument",
       "description": "#document",
-      "objectId": "-7921181833547490315.1.1",
+      "objectId": "-1554136589798575674.1.1",
       "subtype": "node",
       "type": "object"
    }
 }
-[1753400673.592][DEBUG]: DevTools WebSocket Command: DOM.describeNode (id=35) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "objectId": "-7921181833547490315.1.1"
+[1753468028.861][DEBUG]: DevTools WebSocket Command: DOM.describeNode (id=35) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "objectId": "-1554136589798575674.1.1"
 }
-[1753400673.592][DEBUG]: DevTools WebSocket Response: DOM.describeNode (id=35) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.862][DEBUG]: DevTools WebSocket Response: DOM.describeNode (id=35) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "node": {
       "backendNodeId": 1,
       "baseURL": "https://web.whatsapp.com/",
@@ -2632,568 +2717,72 @@
       "xmlVersion": ""
    }
 }
-[1753400673.592][DEBUG]: DevTools WebSocket Command: Runtime.releaseObjectGroup (id=36) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "objectGroup": "7704a5c0-4858-4b1b-b516-e1bd5aeb5d4b"
+[1753468028.862][DEBUG]: DevTools WebSocket Command: Runtime.releaseObjectGroup (id=36) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "objectGroup": "dda80c46-8c09-40ad-9a60-820a3f3dada8"
 }
-[1753400673.593][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=37) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.862][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=37) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "awaitPromise": false,
    "expression": "document.readyState",
    "returnByValue": true,
-   "uniqueContextId": "-7679174331680580155.7015799505157489899"
+   "uniqueContextId": "-2750084532463595168.-5185705341634130185"
 }
-[1753400673.593][DEBUG]: DevTools WebSocket Response: Runtime.releaseObjectGroup (id=36) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.862][DEBUG]: DevTools WebSocket Response: Runtime.releaseObjectGroup (id=36) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
 }
-[1753400673.593][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=37) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468028.863][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=37) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "result": {
       "type": "string",
       "value": "loading"
    }
 }
-[1753400673.808][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "timestamp": 7025.584273
+[1753468029.059][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "timestamp": 18376.830796
 }
-[1753400673.808][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "timestamp": 7025.584971
-}
-[1753400673.809][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=38) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "awaitPromise": false,
-   "expression": "document.readyState",
-   "returnByValue": true,
-   "uniqueContextId": "-7679174331680580155.7015799505157489899"
-}
-[1753400673.809][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frameId": "0B30A37C83935ACFE6659CA78604A6F8"
-}
-[1753400673.815][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=38) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "result": {
-      "type": "string",
-      "value": "complete"
-   }
-}
-[1753400673.815][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=39) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468029.059][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=38) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "expression": "1"
 }
-[1753400673.828][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=39) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
+[1753468029.136][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=38) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
    "result": {
       "description": "1",
       "type": "number",
       "value": 1
    }
 }
-[1753400673.828][INFO]: Done waiting for pending navigations. Status: ok
-[1753400673.828][INFO]: [39ed752b808998b86f9754ff810d3a04] RESPONSE Navigate
-[1753400692.521][INFO]: [39ed752b808998b86f9754ff810d3a04] COMMAND FindElement {
+[1753468029.136][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "timestamp": 18376.906711
+}
+[1753468029.136][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=39) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true,
+   "uniqueContextId": "-2750084532463595168.-5185705341634130185"
+}
+[1753468029.137][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "frameId": "76DE508C79FE2CF36127D77F55E6B4D6"
+}
+[1753468029.161][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=39) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1753468029.161][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=40) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "expression": "1"
+}
+[1753468029.278][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=40) (session_id=5413C69ECF128E38ED06AC66CC3C783C) 76DE508C79FE2CF36127D77F55E6B4D6 {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1753468029.278][INFO]: Done waiting for pending navigations. Status: ok
+[1753468029.278][INFO]: [d2beb964b3a21ab865323736dc48240e] RESPONSE Navigate
+[1753468046.549][INFO]: [d2beb964b3a21ab865323736dc48240e] COMMAND FindElement {
    "using": "xpath",
    "value": "//div[@contenteditable=\"true\"][@data-tab=\"3\"]"
 }
-[1753400692.521][DEBUG]: DevTools WebSocket Event: Page.frameStartedNavigating (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frameId": "0B30A37C83935ACFE6659CA78604A6F8",
-   "loaderId": "CA175747C3AB0C7BD85574A706969DFF",
-   "navigationType": "historyDifferentDocument",
-   "url": "chrome://new-tab-page/"
-}
-[1753400692.521][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frameId": "0B30A37C83935ACFE6659CA78604A6F8"
-}
-[1753400692.521][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-}
-[1753400692.521][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-}
-[1753400692.521][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frame": {
-      "adFrameStatus": {
-         "adFrameType": "none"
-      },
-      "crossOriginIsolatedContextType": "NotIsolated",
-      "domainAndRegistry": "",
-      "gatedAPIFeatures": [  ],
-      "id": "0B30A37C83935ACFE6659CA78604A6F8",
-      "loaderId": "CA175747C3AB0C7BD85574A706969DFF",
-      "mimeType": "text/html",
-      "secureContextType": "Secure",
-      "securityOrigin": "chrome://new-tab-page",
-      "securityOriginDetails": {
-         "isLocalhost": false
-      },
-      "url": "chrome://new-tab-page/"
-   },
-   "type": "Navigation"
-}
-[1753400692.521][DEBUG]: DevTools WebSocket Event: Page.backForwardCacheNotUsed (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frameId": "0B30A37C83935ACFE6659CA78604A6F8",
-   "loaderId": "CA175747C3AB0C7BD85574A706969DFF",
-   "notRestoredExplanations": [ {
-      "reason": "SchemeNotHTTPOrHTTPS",
-      "type": "Circumstantial"
-   } ],
-   "notRestoredExplanationsTree": {
-      "children": [ {
-         "children": [  ],
-         "explanations": [  ],
-         "url": "about:blank"
-      }, {
-         "children": [  ],
-         "explanations": [  ],
-         "url": "chrome-untrusted://new-tab-page/one-google-bar?paramsencoded="
-      } ],
-      "explanations": [ {
-         "reason": "SchemeNotHTTPOrHTTPS",
-         "type": "Circumstantial"
-      } ],
-      "url": "chrome://new-tab-page/"
-   }
-}
-[1753400692.521][DEBUG]: DevTools WebSocket Event: Target.detachedFromTarget (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "sessionId": "7FC6C424C861176A209D64980C1E0C08",
-   "targetId": "A4F53B6C05944A55C38FF3D6873DBBE0"
-}
-[1753400692.521][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "context": {
-      "auxData": {
-         "frameId": "0B30A37C83935ACFE6659CA78604A6F8",
-         "isDefault": true,
-         "type": "default"
-      },
-      "id": 1,
-      "name": "",
-      "origin": "chrome://new-tab-page",
-      "uniqueId": "5547570773725330059.-7763459592910590157"
-   }
-}
-[1753400692.521][DEBUG]: DevTools WebSocket Event: Page.frameAttached (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frameId": "45F6E3BB279D3A289C0237446A3D2485",
-   "parentFrameId": "0B30A37C83935ACFE6659CA78604A6F8"
-}
-[1753400692.521][DEBUG]: DevTools WebSocket Event: Page.frameRequestedNavigation (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "disposition": "currentTab",
-   "frameId": "45F6E3BB279D3A289C0237446A3D2485",
-   "reason": "initialFrameNavigation",
-   "url": "about:blank"
-}
-[1753400692.521][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frame": {
-      "adFrameStatus": {
-         "adFrameType": "none",
-         "explanations": [  ]
-      },
-      "crossOriginIsolatedContextType": "NotIsolated",
-      "domainAndRegistry": "",
-      "gatedAPIFeatures": [  ],
-      "id": "45F6E3BB279D3A289C0237446A3D2485",
-      "loaderId": "1D8800D61DE0C61FF20FC3A50CDEB4EF",
-      "mimeType": "text/html",
-      "name": "backgroundImage",
-      "parentId": "0B30A37C83935ACFE6659CA78604A6F8",
-      "secureContextType": "Secure",
-      "securityOrigin": "://",
-      "securityOriginDetails": {
-         "isLocalhost": false
-      },
-      "url": "about:blank"
-   },
-   "type": "Navigation"
-}
-[1753400692.521][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frameId": "45F6E3BB279D3A289C0237446A3D2485"
-}
-[1753400692.521][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "context": {
-      "auxData": {
-         "frameId": "45F6E3BB279D3A289C0237446A3D2485",
-         "isDefault": true,
-         "type": "default"
-      },
-      "id": 2,
-      "name": "",
-      "origin": "chrome://new-tab-page",
-      "uniqueId": "2148730219423731625.-1337552490265558528"
-   }
-}
-[1753400692.521][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frameId": "45F6E3BB279D3A289C0237446A3D2485"
-}
-[1753400692.521][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "timestamp": 7026.793511
-}
-[1753400692.521][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "timestamp": 7026.807642
-}
-[1753400692.521][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=40) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "awaitPromise": false,
-   "expression": "document.readyState",
-   "returnByValue": true,
-   "uniqueContextId": "5547570773725330059.-7763459592910590157"
-}
-[1753400692.521][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frameId": "0B30A37C83935ACFE6659CA78604A6F8"
-}
-[1753400692.522][DEBUG]: DevTools WebSocket Event: Page.frameAttached (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frameId": "5B7BD04BF492D5ADA0643BB0F6F2EDF5",
-   "parentFrameId": "0B30A37C83935ACFE6659CA78604A6F8",
-   "stack": {
-      "callFrames": [ {
-         "columnNumber": 4320,
-         "functionName": "O",
-         "lineNumber": 15,
-         "scriptId": "8",
-         "url": "chrome://resources/lit/v3_0/lit.rollup.js"
-      }, {
-         "columnNumber": 4394,
-         "functionName": "T",
-         "lineNumber": 15,
-         "scriptId": "8",
-         "url": "chrome://resources/lit/v3_0/lit.rollup.js"
-      }, {
-         "columnNumber": 4743,
-         "functionName": "$",
-         "lineNumber": 15,
-         "scriptId": "8",
-         "url": "chrome://resources/lit/v3_0/lit.rollup.js"
-      }, {
-         "columnNumber": 4227,
-         "functionName": "_$AI",
-         "lineNumber": 15,
-         "scriptId": "8",
-         "url": "chrome://resources/lit/v3_0/lit.rollup.js"
-      }, {
-         "columnNumber": 7111,
-         "functionName": "B",
-         "lineNumber": 15,
-         "scriptId": "8",
-         "url": "chrome://resources/lit/v3_0/lit.rollup.js"
-      }, {
-         "columnNumber": 369,
-         "functionName": "update",
-         "lineNumber": 20,
-         "scriptId": "8",
-         "url": "chrome://resources/lit/v3_0/lit.rollup.js"
-      }, {
-         "columnNumber": 5321,
-         "functionName": "performUpdate",
-         "lineNumber": 10,
-         "scriptId": "8",
-         "url": "chrome://resources/lit/v3_0/lit.rollup.js"
-      }, {
-         "columnNumber": 931,
-         "functionName": "ensureInitialRender",
-         "lineNumber": 44,
-         "scriptId": "8",
-         "url": "chrome://resources/lit/v3_0/lit.rollup.js"
-      }, {
-         "columnNumber": 999,
-         "functionName": "connectedCallback",
-         "lineNumber": 44,
-         "scriptId": "8",
-         "url": "chrome://resources/lit/v3_0/lit.rollup.js"
-      }, {
-         "columnNumber": 4320,
-         "functionName": "O",
-         "lineNumber": 15,
-         "scriptId": "8",
-         "url": "chrome://resources/lit/v3_0/lit.rollup.js"
-      }, {
-         "columnNumber": 4394,
-         "functionName": "T",
-         "lineNumber": 15,
-         "scriptId": "8",
-         "url": "chrome://resources/lit/v3_0/lit.rollup.js"
-      }, {
-         "columnNumber": 4743,
-         "functionName": "$",
-         "lineNumber": 15,
-         "scriptId": "8",
-         "url": "chrome://resources/lit/v3_0/lit.rollup.js"
-      }, {
-         "columnNumber": 4227,
-         "functionName": "_$AI",
-         "lineNumber": 15,
-         "scriptId": "8",
-         "url": "chrome://resources/lit/v3_0/lit.rollup.js"
-      }, {
-         "columnNumber": 3674,
-         "functionName": "p",
-         "lineNumber": 15,
-         "scriptId": "8",
-         "url": "chrome://resources/lit/v3_0/lit.rollup.js"
-      }, {
-         "columnNumber": 4679,
-         "functionName": "$",
-         "lineNumber": 15,
-         "scriptId": "8",
-         "url": "chrome://resources/lit/v3_0/lit.rollup.js"
-      }, {
-         "columnNumber": 4227,
-         "functionName": "_$AI",
-         "lineNumber": 15,
-         "scriptId": "8",
-         "url": "chrome://resources/lit/v3_0/lit.rollup.js"
-      }, {
-         "columnNumber": 7111,
-         "functionName": "B",
-         "lineNumber": 15,
-         "scriptId": "8",
-         "url": "chrome://resources/lit/v3_0/lit.rollup.js"
-      }, {
-         "columnNumber": 369,
-         "functionName": "update",
-         "lineNumber": 20,
-         "scriptId": "8",
-         "url": "chrome://resources/lit/v3_0/lit.rollup.js"
-      }, {
-         "columnNumber": 5321,
-         "functionName": "performUpdate",
-         "lineNumber": 10,
-         "scriptId": "8",
-         "url": "chrome://resources/lit/v3_0/lit.rollup.js"
-      }, "..." ]
-   }
-}
-[1753400692.522][DEBUG]: DevTools WebSocket Event: Page.frameRequestedNavigation (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "disposition": "currentTab",
-   "frameId": "5B7BD04BF492D5ADA0643BB0F6F2EDF5",
-   "reason": "initialFrameNavigation",
-   "url": "chrome-untrusted://new-tab-page/one-google-bar?paramsencoded="
-}
-[1753400692.522][DEBUG]: DevTools WebSocket Event: Page.frameStartedNavigating (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frameId": "5B7BD04BF492D5ADA0643BB0F6F2EDF5",
-   "loaderId": "1CDA75724DABC201977E60B48180148E",
-   "navigationType": "differentDocument",
-   "url": "chrome-untrusted://new-tab-page/one-google-bar?paramsencoded="
-}
-[1753400692.522][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frameId": "5B7BD04BF492D5ADA0643BB0F6F2EDF5"
-}
-[1753400692.522][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "sessionId": "944A79731235C1D026917912CB0B51F4",
-   "targetInfo": {
-      "attached": true,
-      "browserContextId": "8003F059605E975B12D7C5268AB372AB",
-      "canAccessOpener": false,
-      "targetId": "5B7BD04BF492D5ADA0643BB0F6F2EDF5",
-      "title": "",
-      "type": "iframe",
-      "url": ""
-   },
-   "waitingForDebugger": false
-}
-[1753400692.522][DEBUG]: DevTools WebSocket Command: Page.enable (id=41) (session_id=944A79731235C1D026917912CB0B51F4) 944A79731235C1D026917912CB0B51F4 {
-}
-[1753400692.522][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=42) (session_id=944A79731235C1D026917912CB0B51F4) 944A79731235C1D026917912CB0B51F4 {
-   "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_a..."
-}
-[1753400692.522][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=43) (session_id=944A79731235C1D026917912CB0B51F4) 944A79731235C1D026917912CB0B51F4 {
-   "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_a..."
-}
-[1753400692.522][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=44) (session_id=944A79731235C1D026917912CB0B51F4) 944A79731235C1D026917912CB0B51F4 {
-   "autoAttach": true,
-   "flatten": true,
-   "waitForDebuggerOnStart": false
-}
-[1753400692.523][DEBUG]: DevTools WebSocket Event: Target.targetInfoChanged (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "targetInfo": {
-      "attached": true,
-      "browserContextId": "8003F059605E975B12D7C5268AB372AB",
-      "canAccessOpener": false,
-      "targetId": "5B7BD04BF492D5ADA0643BB0F6F2EDF5",
-      "title": "chrome-untrusted://new-tab-page/one-google-bar?paramsencoded=",
-      "type": "iframe",
-      "url": "chrome-untrusted://new-tab-page/one-google-bar?paramsencoded="
-   }
-}
-[1753400692.523][DEBUG]: DevTools WebSocket Event: Page.frameDetached (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frameId": "5B7BD04BF492D5ADA0643BB0F6F2EDF5",
-   "reason": "swap"
-}
-[1753400692.523][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=40) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "result": {
-      "type": "string",
-      "value": "complete"
-   }
-}
-[1753400692.523][DEBUG]: DevTools WebSocket Response: Page.enable (id=41) (session_id=944A79731235C1D026917912CB0B51F4) 944A79731235C1D026917912CB0B51F4 {
-}
-[1753400692.523][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=42) (session_id=944A79731235C1D026917912CB0B51F4) 944A79731235C1D026917912CB0B51F4 {
-   "identifier": "1"
-}
-[1753400692.523][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=43) (session_id=944A79731235C1D026917912CB0B51F4) 944A79731235C1D026917912CB0B51F4 {
-   "result": {
-      "type": "undefined"
-   }
-}
-[1753400692.523][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=44) (session_id=944A79731235C1D026917912CB0B51F4) 944A79731235C1D026917912CB0B51F4 {
-}
-[1753400692.523][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=45) (session_id=944A79731235C1D026917912CB0B51F4) 944A79731235C1D026917912CB0B51F4 {
-}
-[1753400692.524][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=944A79731235C1D026917912CB0B51F4) 944A79731235C1D026917912CB0B51F4 {
-   "context": {
-      "auxData": {
-         "frameId": "5B7BD04BF492D5ADA0643BB0F6F2EDF5",
-         "isDefault": true,
-         "type": "default"
-      },
-      "id": 1,
-      "name": "",
-      "origin": "chrome-untrusted://new-tab-page",
-      "uniqueId": "-552769411721446499.-7277147560639145995"
-   }
-}
-[1753400692.524][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=45) (session_id=944A79731235C1D026917912CB0B51F4) 944A79731235C1D026917912CB0B51F4 {
-}
-[1753400692.524][INFO]: Waiting for pending navigations...
-[1753400692.524][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=46) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "expression": "1"
-}
-[1753400692.525][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=46) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "result": {
-      "description": "1",
-      "type": "number",
-      "value": 1
-   }
-}
-[1753400692.525][INFO]: Done waiting for pending navigations. Status: ok
-[1753400692.525][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=47) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-}
-[1753400692.526][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=47) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frameTree": {
-      "childFrames": [ {
-         "frame": {
-            "adFrameStatus": {
-               "adFrameType": "none",
-               "explanations": [  ]
-            },
-            "crossOriginIsolatedContextType": "NotIsolated",
-            "domainAndRegistry": "",
-            "gatedAPIFeatures": [  ],
-            "id": "45F6E3BB279D3A289C0237446A3D2485",
-            "loaderId": "1D8800D61DE0C61FF20FC3A50CDEB4EF",
-            "mimeType": "text/html",
-            "name": "backgroundImage",
-            "parentId": "0B30A37C83935ACFE6659CA78604A6F8",
-            "secureContextType": "Secure",
-            "securityOrigin": "://",
-            "securityOriginDetails": {
-               "isLocalhost": false
-            },
-            "url": "about:blank"
-         }
-      } ],
-      "frame": {
-         "adFrameStatus": {
-            "adFrameType": "none"
-         },
-         "crossOriginIsolatedContextType": "NotIsolated",
-         "domainAndRegistry": "",
-         "gatedAPIFeatures": [  ],
-         "id": "0B30A37C83935ACFE6659CA78604A6F8",
-         "loaderId": "CA175747C3AB0C7BD85574A706969DFF",
-         "mimeType": "text/html",
-         "secureContextType": "Secure",
-         "securityOrigin": "chrome://new-tab-page",
-         "securityOriginDetails": {
-            "isLocalhost": false
-         },
-         "url": "chrome://new-tab-page/"
-      }
-   }
-}
-[1753400692.526][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=48) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-}
-[1753400692.527][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=48) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "frameTree": {
-      "childFrames": [ {
-         "frame": {
-            "adFrameStatus": {
-               "adFrameType": "none",
-               "explanations": [  ]
-            },
-            "crossOriginIsolatedContextType": "NotIsolated",
-            "domainAndRegistry": "",
-            "gatedAPIFeatures": [  ],
-            "id": "45F6E3BB279D3A289C0237446A3D2485",
-            "loaderId": "1D8800D61DE0C61FF20FC3A50CDEB4EF",
-            "mimeType": "text/html",
-            "name": "backgroundImage",
-            "parentId": "0B30A37C83935ACFE6659CA78604A6F8",
-            "secureContextType": "Secure",
-            "securityOrigin": "://",
-            "securityOriginDetails": {
-               "isLocalhost": false
-            },
-            "url": "about:blank"
-         }
-      } ],
-      "frame": {
-         "adFrameStatus": {
-            "adFrameType": "none"
-         },
-         "crossOriginIsolatedContextType": "NotIsolated",
-         "domainAndRegistry": "",
-         "gatedAPIFeatures": [  ],
-         "id": "0B30A37C83935ACFE6659CA78604A6F8",
-         "loaderId": "CA175747C3AB0C7BD85574A706969DFF",
-         "mimeType": "text/html",
-         "secureContextType": "Secure",
-         "securityOrigin": "chrome://new-tab-page",
-         "securityOriginDetails": {
-            "isLocalhost": false
-         },
-         "url": "chrome://new-tab-page/"
-      }
-   }
-}
-[1753400692.529][DEBUG]: DevTools WebSocket Command: Runtime.callFunctionOn (id=49) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "arguments": [  ],
-   "awaitPromise": true,
-   "functionDeclaration": "function(){ return (function() { // Copyright 2012 The Chromium Authors\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum for WebD...",
-   "serializationOptions": {
-      "serialization": "deep"
-   },
-   "uniqueContextId": "5547570773725330059.-7763459592910590157"
-}
-[1753400692.538][DEBUG]: DevTools WebSocket Response: Runtime.callFunctionOn (id=49) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "result": {
-      "className": "Array",
-      "deepSerializedValue": {
-         "type": "array",
-         "value": [ {
-            "type": "string",
-            "value": "{\"status\":0,\"value\":null}"
-         } ]
-      },
-      "description": "Array(1)",
-      "objectId": "-266324588971098298.1.1",
-      "subtype": "array",
-      "type": "object"
-   }
-}
-[1753400692.539][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=50) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "expression": "1"
-}
-[1753400692.539][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=50) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "result": {
-      "description": "1",
-      "type": "number",
-      "value": 1
-   }
-}
-[1753400692.539][INFO]: Waiting for pending navigations...
-[1753400692.539][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=51) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "expression": "1"
-}
-[1753400692.540][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=51) (session_id=B41B31003F60C68623B46896DB1462CB) 0B30A37C83935ACFE6659CA78604A6F8 {
-   "result": {
-      "description": "1",
-      "type": "number",
-      "value": 1
-   }
-}
-[1753400692.540][INFO]: Done waiting for pending navigations. Status: ok
-[1753400692.540][INFO]: [39ed752b808998b86f9754ff810d3a04] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[@contenteditable="true"][@data-tab="3"]"}
+[1753468046.549][INFO]: [d2beb964b3a21ab865323736dc48240e] RESPONSE FindElement ERROR invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
   (Session info: chrome=138.0.7204.158)
-[1753400692.626][INFO]: [39ed752b808998b86f9754ff810d3a04] COMMAND QuitAll {
-}
-[1753400692.626][DEBUG]: DevTools WebSocket Command: Browser.close (id=52) (session_id=) browser {
-}
-[1753400692.862][INFO]: [39ed752b808998b86f9754ff810d3a04] RESPONSE QuitAll
-[1753400692.862][DEBUG]: Log type 'driver' lost 2 entries on destruction
-[1753400692.862][DEBUG]: Log type 'browser' lost 0 entries on destruction
+[1753468046.549][DEBUG]: Log type 'driver' lost 2 entries on destruction
+[1753468046.549][DEBUG]: Log type 'browser' lost 0 entries on destruction

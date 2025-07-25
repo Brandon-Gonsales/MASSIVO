@@ -1,0 +1,15 @@
+2025/07/25-19:14:59.581 1ee0 Reusing MANIFEST C:\Users\usuario\Desktop\massivo\AutomationProfile\Default\Local Storage\leveldb/MANIFEST-000001
+2025/07/25-19:14:59.620 1ee0 Recovering log #20
+2025/07/25-19:14:59.624 1ee0 Reusing old log C:\Users\usuario\Desktop\massivo\AutomationProfile\Default\Local Storage\leveldb/000020.log 
+2025/07/25-19:17:00.802 33f4 Level-0 table #24: started
+2025/07/25-19:17:00.814 33f4 Level-0 table #24: 17182 bytes OK
+2025/07/25-19:17:00.816 33f4 Delete type=0 #20
+2025/07/25-19:17:00.817 33f4 Compacting 4@0 + 1@1 files
+2025/07/25-19:17:00.822 33f4 Generated table #25@0: 122 keys, 12762 bytes
+2025/07/25-19:17:00.822 33f4 Compacted 4@0 + 1@1 files => 12762 bytes
+2025/07/25-19:17:00.823 33f4 compacted to: files[ 0 1 0 0 0 0 0 ]
+2025/07/25-19:17:00.824 33f4 Delete type=2 #13
+2025/07/25-19:17:00.824 33f4 Delete type=2 #16
+2025/07/25-19:17:00.824 33f4 Delete type=2 #18
+2025/07/25-19:17:00.824 33f4 Delete type=2 #21
+2025/07/25-19:17:00.824 33f4 Delete type=2 #24
