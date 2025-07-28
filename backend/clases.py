@@ -244,23 +244,8 @@ Armando=BootMassivo(level_random=1)
 Armando.open_whatsapp()
 Armando.open_chat(cell_phone="59160991159",contact_name="")
 
-Armando.send_picture("C:\\Users\\usuario\\Downloads\\photo1.jpg",
-                        ['🌸 *BIMBO* 🌸',  
-                        '',
-                        '✨ *Suave y rico* ✨',  
-                        '*como el amor*',  
-                        '*de Mamá* 💖',  
-                        '',
-                        '📸 *Mira qué lindo detalle encontré!*', 
-                        '👉 ¿No te recuerda a esos momentos especiales?',  
-                        '',
-                        '💭 *"Un hijo es el mejor regalo...* ',
-                        '*y ser mamá, el mayor privilegio"*',  
-                        '',
-                        '🔄 *Compártelo si también amas a tu mamá*',  
-                        '💌 *Etiqueta a quien te hizo sentir así*',  
-                        '',
-                        '#AmorDeMamá #FamiliasUnidas #Bimbo' ])
+for i in range(100):
+    Armando.send_text([f"{i+1}: Este mensaje se repetirá 100 veces"])
 
 
-time.sleep(3600)
+time.sleep(random.uniform[Armando.min_delay,Armando.max_delay])

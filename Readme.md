@@ -114,3 +114,40 @@ Envía imagen con leyenda opcional
 
 ### quit() -> None
 Cierra el navegador y finaliza la sesión  
+
+## Uso básico
+
+### 1. Gestión de contactos
+
+```python
+# Crear agenda
+agenda = Agenda(max_contactos=500)
+
+# Agregar contactos
+agenda.add("Juan Pérez", "12345678")
+
+# Importar desde CSV
+agenda.import_contacts("contactos.csv")
+
+# Exportar a CSV
+agenda.export_contacts("mis_contactos")
+
+# Mostrar contactos
+agenda.show(10)
+```
+
+### 2. Envío masivo de mensajes
+```python
+# Inicializar bot (0=Windows, 1=Mac, 2=Android, 3=iPhone)
+bot = BootMassivo(agent_code=0)
+
+# Abrir WhatsApp
+bot.open_whatsapp()
+
+# Enviar mensaje a un contacto
+if bot.open_chat("12345678", "Juan Pérez"):
+    bot.send_text(["Hola Juan,", "Este es un mensaje automatizado."])
+    bot.send_picture("foto.jpg", ["Aquí tienes la imagen", "prometida."])
+
+# Cerrar navegador
+bot.quit()```
