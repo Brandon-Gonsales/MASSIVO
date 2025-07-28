@@ -240,8 +240,6 @@ class BootMassivo:
     def quit(self):
         print("Cerrando el navegador.")
         self.driver.quit()
-
-
 Armando=BootMassivo(level_random=1)
 Armando.open_whatsapp()
 Armando.open_chat(cell_phone="59160991159",contact_name="")
