@@ -59,13 +59,11 @@ class Agenda:
     
     def import_contacts(self, route: str):
         try:
-            cols = ["First Name", "Middle Name", "Last Name", "Phone 1 - Value"]
+            cols = ["First Name", "Phone 1 - Value"]
             datos = pd.read_csv(route, usecols=cols)
-            datos["Full Name"] = datos["First Name"].fillna("") + " " + datos["Middle Name"].fillna("") + " " + datos["Last Name"].fillna("")
-            datos["Full Name"] = datos["Full Name"].str.strip()
             for row in datos.itertuples():
-                name = re.sub(r'[^a-zA-ZáéíóúÁÉÍÓÚñÑ\s]', '', f"{row._5}")
-                telf = str(row._4).strip().replace(" ", "").replace("+", "")[-8:] # Limpieza más robusta
+                name = re.sub(r'[^a-zA-ZáéíóúÁÉÍÓÚñÑ\s]', '', f"{row._1}")
+                telf = str(row._2).strip().replace(" ", "").replace("+", "")[-8:] # Limpieza más robusta
                 if name and telf:
                     self.add(name, telf)
         except FileNotFoundError:
@@ -119,7 +117,7 @@ UA=[{"agent":WINDOWS_UA,"x_size":1380,"y_size":780},
 class BootMassivo:
 #NOTA: Quedò pendiente conseguir iniciar secion desde algun usuario previuamente creado (Quitar cosas innecesarias del __init__)
     
-    def __init__(self,agent_code:int=0,level_random:int=5,min_delay:int=2,max_delay:int=6):
+    def __init__(self,agent_code:int=0,level_random:int=0,min_delay:int=2,max_delay:int=6):
         self.is_active=True
         self.level_random=level_random
         self.min_delay=min_delay
@@ -133,7 +131,10 @@ class BootMassivo:
         options.add_argument("--disable-blink-features=AutomationControlled")
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option("useAutomationExtension", False)
-       
+        
+        options.add_argument("--headless")
+        options.add_argument("--disable-gpu")
+
         # La ruta del perfil ya no está hardcodeada. Se crea en la carpeta del proyecto.
         profile_path = os.path.join(os.getcwd(), "AutomationProfile")
         options.add_argument(f"--user-data-dir={profile_path}")
@@ -240,12 +241,3 @@ class BootMassivo:
     def quit(self):
         print("Cerrando el navegador.")
         self.driver.quit()
-Armando=BootMassivo(level_random=1)
-Armando.open_whatsapp()
-Armando.open_chat(cell_phone="59160991159",contact_name="")
-
-for i in range(100):
-    Armando.send_text([f"{i+1}: Este mensaje se repetirá 100 veces"])
-
-
-time.sleep(random.uniform[Armando.min_delay,Armando.max_delay])
