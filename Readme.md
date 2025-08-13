@@ -1,4 +1,4 @@
-# 🤖 Massivo
+# 🤖 SendPy
 Este proyecto es un bot de automatización desarrollado en Python con Selenium, diseñado para enviar mensajes masivos de texto e imágenes a través de WhatsApp Web. Incluye técnicas para simular el comportamiento humano y evitar la detección, así como un sistema de gestión de contactos a partir de archivos CSV.
 ## Características Principales
 * Gestión de contactos (agregar, editar, eliminar)
