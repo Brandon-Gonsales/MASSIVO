@@ -12,6 +12,7 @@ AutomationProfile/
 
 # Ignorar la carpeta de backups para no subir datos de contactos
 backup/
+file_test/
 
 # Archivos de log generados
 chromedriver.log

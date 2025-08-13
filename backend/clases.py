@@ -32,7 +32,7 @@ class Agenda:
             return 100
         elif not telefono.isdigit():
             return 200
-        elif nombre in self.contacts:
+        elif ((nombre in self.contacts) or (telefono in self.contacts.values())):
             return 300
         else:
             self.contacts[nombre] = telefono
@@ -66,24 +66,31 @@ class Agenda:
                 telf = str(row._2).strip().replace(" ", "").replace("+", "")[-8:] # Limpieza más robusta
                 if name and telf:
                     self.add(name, telf)
+            print("todo ok")
+            return True
         except FileNotFoundError:
             print(f"Error: No se encontró el archivo en la ruta: {route}")
+            return False
         except Exception as e:
             print(f"Ocurrió un error al importar los contactos: {e}")
+            return False
 
     def export_contacts(self,csv_name: str):
-        columnas = ["First Name", "Middle Name", "Last Name", "Phonetic First Name", "Phonetic Middle Name",
-        "Phonetic Last Name", "Name Prefix", "Name Suffix", "Nickname", "File As",
-        "Organization Name", "Organization Title", "Organization Department", "Birthday",
-        "Notes", "Photo", "Labels", "E-mail 1 - Label", "E-mail 1 - Value",
-        "Phone 1 - Label", "Phone 1 - Value", "Phone 2 - Label", "Phone 2 - Value"]
-        df = pd.DataFrame(columns=columnas)
-        df["First Name"] = list(self.contacts.keys())
-        df["Phone 1 - Value"] = list(self.contacts.values())
-        ruta_completa = os.path.join(self.backup_route, f"{csv_name}.csv")
-        df.to_csv(ruta_completa, index=False, encoding='utf-8')
-        print(f"Contactos exportados a {ruta_completa}")
-   
+        try:
+            columnas = ["First Name", "Middle Name", "Last Name", "Phonetic First Name", "Phonetic Middle Name",
+            "Phonetic Last Name", "Name Prefix", "Name Suffix", "Nickname", "File As",
+            "Organization Name", "Organization Title", "Organization Department", "Birthday",
+            "Notes", "Photo", "Labels", "E-mail 1 - Label", "E-mail 1 - Value",
+            "Phone 1 - Label", "Phone 1 - Value", "Phone 2 - Label", "Phone 2 - Value"]
+            df = pd.DataFrame(columns=columnas)
+            df["First Name"] = list(self.contacts.keys())
+            df["Phone 1 - Value"] = list(self.contacts.values())
+            ruta_completa = os.path.join(self.backup_route, f"{csv_name}.csv")
+            df.to_csv(ruta_completa, index=False, encoding='utf-8')
+            return True
+        except:
+            return False
+    
     def backup_contacts(self):
         time_str = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
         backup_name = f"Backup_{time_str}"
@@ -117,23 +124,24 @@ UA=[{"agent":WINDOWS_UA,"x_size":1380,"y_size":780},
 class BootMassivo:
 #NOTA: Quedò pendiente conseguir iniciar secion desde algun usuario previuamente creado (Quitar cosas innecesarias del __init__)
     
-    def __init__(self,agent_code:int=0,level_random:int=0,min_delay:int=2,max_delay:int=6):
+    def __init__(self,agent_code:int=0,level_random:int=0,min_delay:int=2,max_delay:int=6,isVisible:bool=True):
         self.is_active=True
         self.level_random=level_random
         self.min_delay=min_delay
         self.max_delay=max_delay
         self.agent=UA[agent_code]["agent"]
         self.x_size=UA[agent_code]["x_size"]
-        self.y_size=UA[agent_code]["y_size"]      
+        self.y_size=UA[agent_code]["y_size"]    
+        self.isVisible=isVisible  
         
         options = Options()
         options.add_argument(f"user-agent={self.agent}")
         options.add_argument("--disable-blink-features=AutomationControlled")
         options.add_experimental_option("excludeSwitches", ["enable-automation"])
         options.add_experimental_option("useAutomationExtension", False)
-        
-        options.add_argument("--headless")
-        options.add_argument("--disable-gpu")
+        if not isVisible:
+            options.add_argument("--headless")
+            options.add_argument("--disable-gpu")
 
         # La ruta del perfil ya no está hardcodeada. Se crea en la carpeta del proyecto.
         profile_path = os.path.join(os.getcwd(), "AutomationProfile")
@@ -169,7 +177,7 @@ class BootMassivo:
         for line in vector:
             self.tipear_renglon(element,line)
             element.send_keys( Keys.SHIFT + Keys.ENTER)
-            time.sleep(random.uniform(0.15, 0.35))
+            time.sleep(random.uniform(0.15, 0.3))
 
 
 
